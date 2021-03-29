@@ -1,0 +1,103 @@
+@import "compass/css3";
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2C2F33;
+    color: #7289da;
+    /*margin-bottom: 5%;
+    margin-top: 7%;
+    margin-left: 13%;
+    margin-right: 5%;*/
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    font-family: 'Roboto', sans-serif;
+    background-color: #23272A;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    display: block;
+    color: #7289da;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2C2F33;
+    color: #7289da;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    font-family: 'Roboto', sans-serif;
+    background-color: #7289da;
+    color: #ffffff;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+  }
+
+  /* Makes hyperlinks same colour as text */
+  a {
+    color: #7289da;
+}
+
+  p, h1, h2, h3, h4, h5, h6, img {
+    padding-left: 1%
+}
+
+#list {
+  display: flex;
+}
+
+.ryal {
+  width: 30%
+}
+
+.lists {
+  padding-left: 1.5%;
+}
+
+.credits {
+  position: absolute;
+  bottom: 8px;
+  text-align: right;
+  right: 8px
+}
+
+.links_learn {
+  margin-left: 20px;
+}
+
+.madeby {
+  position: absolute;
+  bottom: 8px;
+  text-align: left;
+  left: 8px
+}
+
+.mySlides {
+  display: none;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+/*video {
+  padding-top: 5%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
