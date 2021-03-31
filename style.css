@@ -69,6 +69,11 @@ body {
   padding-left: 1.5%;
 }
 
+.ring {
+  position: absolute;
+  bottom: 30px
+}
+
 .credits {
   position: absolute;
   bottom: 8px;
