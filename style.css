@@ -104,15 +104,10 @@ border-radius: 12px;
   color: white;
   display: flex;
   justify-content: center;
-  top:90%
+  float: right;
 }
 
 .item {
-  width: 20%;
-  margin: 20px;
-}
-
-.item-social {
   width: 20%;
   margin: 20px;
   text-align: center;
