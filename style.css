@@ -1,60 +1,18 @@
 @import "compass/css3";
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #2C2F33;
-    color: #7289da;
-    /*margin-bottom: 5%;
-    margin-top: 7%;
-    margin-left: 13%;
-    margin-right: 5%;*/
+  font-family: 'Gilroy';
+  background-color: #2C2F33;
+  color: white;
+  margin: 0px;
 }
-
-/* Add a black background color to the top navigation */
-.topnav {
-    font-family: 'Roboto', sans-serif;
-    background-color: #23272A;
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    font-family: 'Roboto', sans-serif;
-    float: left;
-    display: block;
-    color: #7289da;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    font-family: 'Roboto', sans-serif;
-    background-color: #2C2F33;
-    color: #7289da;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    font-family: 'Roboto', sans-serif;
-    background-color: #7289da;
-    color: #ffffff;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    font-family: 'Roboto', sans-serif;
-    display: none;
-  }
 
   /* Makes hyperlinks same colour as text */
-  a {
-    color: #7289da;
+a {
+  color: #7289da;
 }
 
-  p, h1, h2, h3, h4, h5, h6, img {
-    padding-left: 1%
+p, h1, h2, h3, h4, h5, h6, img {
+  padding-left: 1%
 }
 
 #list {
@@ -69,35 +27,97 @@ body {
   padding-left: 1.5%;
 }
 
-.credits {
-  position: absolute;
-  bottom: 8px;
-  text-align: right;
-  right: 8px
-}
-
 .links_learn {
   margin-left: 20px;
 }
 
-.madeby {
-  position: absolute;
-  bottom: 8px;
-  text-align: left;
-  left: 8px
+/* For navbar */
+.page-header {
+  padding: 15px;
+  padding-top: 20px;
+  background-color:#374549;
+  margin: 0px;
 }
 
-.mySlides {
-  display: none;
-  max-height: 500px;
-  max-width: 500px;
+.nav-logo {
+  width: 100px;
 }
 
-/*video {
-  padding-top: 5%;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+.navbar {
+  text-align: right;
+}
+
+.mobile-bars {
+display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Ensure that the navbar as a whole stays on screen. */
+.page-header {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+overflow: hidden;
+}
+
+.nav-logo {
+float: left;
+margin: auto;
+}
+
+.page-header nav {
+float: right;
+}
+
+.page-header ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.page-header li {
+float: left;
+list-style-type: none;
+}
+
+.page-header li a {
+display: block;
+color: white;
+text-align: center;
+padding: 10px 16px;
+text-decoration: none;
+}
+
+.page-header li a:hover {
+background-color: rgb(108, 128, 145);
+border-radius: 12px;
+}
+
+.sidebar {
+  background-color: #162929;
+  padding: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  top:90%
+}
+
+.item {
+  width: 20%;
+  margin: 20px;
+}
+
+.item-social {
+  width: 20%;
+  margin: 20px;
+  text-align: center;
+}
+
+.item-social a {
+  font-size: 20px
 }
