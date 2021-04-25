@@ -104,11 +104,14 @@ border-radius: 12px;
   color: white;
   display: flex;
   justify-content: center;
+  justify-content: right;
   float: right;
+  width: 20%;
+
 }
 
 .item {
-  width: 20%;
+  width: 100%;
   margin: 20px;
   text-align: center;
 }
