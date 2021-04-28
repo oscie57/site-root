@@ -19,8 +19,15 @@ p, h1, h2, h3, h4, h5, h6, img {
   display: flex;
 }
 
-.ryal {
-  width: 30%
+.ryalimg {
+  width: 30%;
+  height: 30%;
+}
+
+.newlifeimg {
+  width: 40%;
+  height: 40%;
+  float: right;
 }
 
 .lists {
@@ -107,7 +114,6 @@ border-radius: 12px;
   justify-content: right;
   float: right;
   width: 20%;
-
 }
 
 .item {
@@ -119,3 +125,7 @@ border-radius: 12px;
 .item-social a {
   font-size: 20px
 }
+
+/* .project1 {
+  nothing yet
+} */
