@@ -6,3 +6,4 @@
 | 1.rar     | ryaltopia  | Ryaltopia Enemy Mod      |
 | 2.rar     | newlife    | Tomodachi Life Audio Mod |
 | 3.rar     | MIIP       | Mii Stamp Channel        |
+| 4.rar     | WSRP       | Wii Sports Remix Channel |
