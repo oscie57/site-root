@@ -4,4 +4,5 @@
 | :-------: | ---------- | ------------------------ |
 | 0.rar     | test thing | Download Test            |
 | 1.rar     | ryaltopia  | Ryaltopia Enemy Mod      |
-| 2.rar     | newlife-eu | Tomodachi Life Audio Mod |
+| 2.rar     | newlife    | Tomodachi Life Audio Mod |
+| 3.rar     | MIIP       | Mii Stamp Channel        |
