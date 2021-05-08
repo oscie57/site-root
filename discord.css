@@ -7245,10 +7245,10 @@ code {
     --text-muted: #ffffff;
     --text-link: #ffffff;
     --channels-default: #ffffff;
-    --interactive-normal: #7289da;
-    --interactive-hover: #7289da;
-    --interactive-active: #7289da;
-    --interactive-muted: #7289da;
+    --interactive-normal: #fff;
+    --interactive-hover: #fff;
+    --interactive-active: #fff;
+    --interactive-muted: #fff;
     --background-primary: #7289da;
     --background-secondary: #7289da;
     --background-secondary-alt: #7289da;
@@ -7268,21 +7268,21 @@ code {
     --background-help-info: rgba(0, 103, 224, 0.1);
     --scrollbar-thin-thumb: rgba(79, 84, 92, 0.3);
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #7289da;
-    --scrollbar-auto-track: #7289da;
-    --scrollbar-auto-scrollbar-color-thumb: #7289da;
-    --scrollbar-auto-scrollbar-color-track: #7289da;
+    --scrollbar-auto-thumb: #fff;
+    --scrollbar-auto-track: #fff;
+    --scrollbar-auto-scrollbar-color-thumb: #fff;
+    --scrollbar-auto-scrollbar-color-track: #fff;
     --elevation-stroke: 0 0 0 1px rgba(6, 6, 7, 0.08);
     --elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
     --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.16);
-    --logo-primary: #7289da;
-    --focus-primary: #7289da;
-    --radio-group-dot-foreground: #7289da;
+    --logo-primary: #fff;
+    --focus-primary: #fff;
+    --radio-group-dot-foreground: #fff;
     --guild-header-text-shadow: 0 1px 1px hsla(0, 0%, 100%, 0.4);
     --channeltextarea-background: #7289da;
     --activity-card-background: #7289da;
-    --textbox-markdown-syntax: #7289da;
+    --textbox-markdown-syntax: #fff;
     --deprecated-card-bg: #7289da;
     --deprecated-card-editable-bg: rgba(246, 246, 247, 0.6);
     --deprecated-store-bg: #7289da;
@@ -78995,4 +78995,4 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 
-/*# sourceMappingURL=0.ae8aa76969441f853156.cs
+/*# sourceMappingURL=0.ae8aa76969441f853156.csff
