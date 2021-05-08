@@ -7239,12 +7239,12 @@ code {
 }
 
 .theme-light {
-    --header-primary: #000000;
-    --header-secondary: #000000;
+    --header-primary: #ffffff;
+    --header-secondary: #ffffff;
     --text-normal: #ffffff;
     --text-muted: #ffffff;
     --text-link: #ffffff;
-    --channels-default: #7289da;
+    --channels-default: #ffffff;
     --interactive-normal: #7289da;
     --interactive-hover: #7289da;
     --interactive-active: #7289da;
