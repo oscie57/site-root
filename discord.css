@@ -7239,19 +7239,19 @@ code {
 }
 
 .theme-light {
-    --header-primary: #ffffff;
-    --header-secondary: #ffffff;
-    --text-normal: #ffffff;
-    --text-muted: #ffffff;
-    --text-link: #ffffff;
-    --channels-default: #ffffff;
+    --header-primary: #fff;
+    --header-secondary: #fff;
+    --text-normal: #fff;
+    --text-muted: #fff;
+    --text-link: #fff;
+    --channels-default: #fff;
     --interactive-normal: #fff;
     --interactive-hover: #fff;
     --interactive-active: #fff;
     --interactive-muted: #fff;
     --background-primary: #7289da;
-    --background-secondary: #7289da;
-    --background-secondary-alt: #7289da;
+    --background-secondary: #fff;
+    --background-secondary-alt: #fff;
     --background-tertiary: #7289da;
     --background-accent: #7289da;
     --background-floating: #7289da;
@@ -7290,9 +7290,9 @@ code {
     --deprecated-quickswitcher-input-placeholder: rgba(79, 84, 92, 0.3);
     --deprecated-text-input-bg: rgba(79, 84, 92, 0.02);
     --deprecated-text-input-border: rgba(79, 84, 92, 0.3);
-    --deprecated-text-input-border-hover: #ffffff;
-    --deprecated-text-input-border-disabled: #ffffff;
-    --deprecated-text-input-prefix: #ffffff
+    --deprecated-text-input-border-hover: #fff;
+    --deprecated-text-input-border-disabled: #fff;
+    --deprecated-text-input-prefix: #fff
 }
 
 .appMount-3lHmkl,
