@@ -7240,23 +7240,23 @@ code {
 }
 
 .theme-light {
-    --header-primary: #fff;
-    --header-secondary: #fff;
-    --text-normal: #fff;
-    --text-muted: #fff;
-    --text-link: #fff;
-    --channels-default: #fff;
-    --interactive-normal: #fff;
-    --interactive-hover: #fff;
-    --interactive-active: #fff;
-    --interactive-muted: #fff;
+    --header-primary: #060607;
+    --header-secondary: #4f5660;
+    --text-normal: #2e3338;
+    --text-muted: #747f8d;
+    --text-link: #0067e0;
+    --channels-default: #6a7480;
+    --interactive-normal: #4f5660;
+    --interactive-hover: #2e3338;
+    --interactive-active: #060607;
+    --interactive-muted: #c7ccd1;
     --background-primary: #fff;
-    --background-secondary: #fff;
-    --background-secondary-alt: #fff;
-    --background-tertiary: #fff;
-    --background-accent: #fff;
+    --background-secondary: #f2f3f5;
+    --background-secondary-alt: #ebedef;
+    --background-tertiary: #e3e5e8;
+    --background-accent: #747f8d;
     --background-floating: #fff;
-    --background-mobile-primary: #fff;
+    --background-mobile-primary: #f8f9f9;
     --background-mobile-secondary: #fff;
     --background-modifier-hover: rgba(116, 127, 141, 0.08);
     --background-modifier-active: rgba(116, 127, 141, 0.16);
@@ -7269,31 +7269,31 @@ code {
     --background-help-info: rgba(0, 103, 224, 0.1);
     --scrollbar-thin-thumb: rgba(79, 84, 92, 0.3);
     --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #fff;
-    --scrollbar-auto-track: #fff;
-    --scrollbar-auto-scrollbar-color-thumb: #fff;
-    --scrollbar-auto-scrollbar-color-track: #fff;
+    --scrollbar-auto-thumb: #ccc;
+    --scrollbar-auto-track: #f2f2f2;
+    --scrollbar-auto-scrollbar-color-thumb: #e3e5e8;
+    --scrollbar-auto-scrollbar-color-track: #f2f3f5;
     --elevation-stroke: 0 0 0 1px rgba(6, 6, 7, 0.08);
     --elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
     --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.16);
-    --logo-primary: #fff;
-    --focus-primary: #fff;
-    --radio-group-dot-foreground: #fff;
+    --logo-primary: #7289da;
+    --focus-primary: #00b0f4;
+    --radio-group-dot-foreground: #4e5d94;
     --guild-header-text-shadow: 0 1px 1px hsla(0, 0%, 100%, 0.4);
-    --channeltextarea-background: #fff;
+    --channeltextarea-background: #ebedef;
     --activity-card-background: #fff;
-    --textbox-markdown-syntax: #fff;
-    --deprecated-card-bg: #fff;
+    --textbox-markdown-syntax: #6a7480;
+    --deprecated-card-bg: #f8f9f9;
     --deprecated-card-editable-bg: rgba(246, 246, 247, 0.6);
-    --deprecated-store-bg: #fff;
+    --deprecated-store-bg: #f8f9f9;
     --deprecated-quickswitcher-input-background: #fff;
     --deprecated-quickswitcher-input-placeholder: rgba(79, 84, 92, 0.3);
     --deprecated-text-input-bg: rgba(79, 84, 92, 0.02);
     --deprecated-text-input-border: rgba(79, 84, 92, 0.3);
-    --deprecated-text-input-border-hover: #fff;
-    --deprecated-text-input-border-disabled: #fff;
-    --deprecated-text-input-prefix: #fff
+    --deprecated-text-input-border-hover: #b9bbbe;
+    --deprecated-text-input-border-disabled: #dcddde;
+    --deprecated-text-input-prefix: #b9bbbe
 }
 
 .appMount-3lHmkl,
@@ -78994,6 +78994,3 @@ html .invoiceCancelRow-3mYhFX {
         display: none
     }
 }
-
-
-/*# sourceMappingURL=0.ae8aa76969441f853156.csfff
