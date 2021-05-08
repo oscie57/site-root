@@ -7252,9 +7252,9 @@ code {
     --background-primary: #7289da;
     --background-secondary: #fff;
     --background-secondary-alt: #fff;
-    --background-tertiary: #7289da;
-    --background-accent: #7289da;
-    --background-floating: #7289da;
+    --background-tertiary: #fff;
+    --background-accent: #fff;
+    --background-floating: #fff;
     --background-mobile-primary: #7289da;
     --background-mobile-secondary: #7289da;
     --background-modifier-hover: rgba(116, 127, 141, 0.08);
