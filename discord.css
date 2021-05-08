@@ -7255,8 +7255,8 @@ code {
     --background-tertiary: #fff;
     --background-accent: #fff;
     --background-floating: #fff;
-    --background-mobile-primary: #7289da;
-    --background-mobile-secondary: #7289da;
+    --background-mobile-primary: #fff;
+    --background-mobile-secondary: #fff;
     --background-modifier-hover: rgba(116, 127, 141, 0.08);
     --background-modifier-active: rgba(116, 127, 141, 0.16);
     --background-modifier-selected: rgba(116, 127, 141, 0.24);
@@ -7280,13 +7280,13 @@ code {
     --focus-primary: #fff;
     --radio-group-dot-foreground: #fff;
     --guild-header-text-shadow: 0 1px 1px hsla(0, 0%, 100%, 0.4);
-    --channeltextarea-background: #7289da;
-    --activity-card-background: #7289da;
+    --channeltextarea-background: #fff;
+    --activity-card-background: #fff;
     --textbox-markdown-syntax: #fff;
-    --deprecated-card-bg: #7289da;
+    --deprecated-card-bg: #fff;
     --deprecated-card-editable-bg: rgba(246, 246, 247, 0.6);
-    --deprecated-store-bg: #7289da;
-    --deprecated-quickswitcher-input-background: #7289da;
+    --deprecated-store-bg: #fff;
+    --deprecated-quickswitcher-input-background: #fff;
     --deprecated-quickswitcher-input-placeholder: rgba(79, 84, 92, 0.3);
     --deprecated-text-input-bg: rgba(79, 84, 92, 0.02);
     --deprecated-text-input-border: rgba(79, 84, 92, 0.3);
@@ -78995,4 +78995,4 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 
-/*# sourceMappingURL=0.ae8aa76969441f853156.csff
+/*# sourceMappingURL=0.ae8aa76969441f853156.csfff
