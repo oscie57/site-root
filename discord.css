@@ -7239,11 +7239,11 @@ code {
 }
 
 .theme-light {
-    --header-primary: #7289da;
-    --header-secondary: #7289da;
-    --text-normal: #7289da;
-    --text-muted: #7289da;
-    --text-link: #7289da;
+    --header-primary: #000000;
+    --header-secondary: #000000;
+    --text-normal: #ffffff;
+    --text-muted: #ffffff;
+    --text-link: #ffffff;
     --channels-default: #7289da;
     --interactive-normal: #7289da;
     --interactive-hover: #7289da;
@@ -7290,9 +7290,9 @@ code {
     --deprecated-quickswitcher-input-placeholder: rgba(79, 84, 92, 0.3);
     --deprecated-text-input-bg: rgba(79, 84, 92, 0.02);
     --deprecated-text-input-border: rgba(79, 84, 92, 0.3);
-    --deprecated-text-input-border-hover: #7289da;
-    --deprecated-text-input-border-disabled: #7289da;
-    --deprecated-text-input-prefix: #7289da
+    --deprecated-text-input-border-hover: #ffffff;
+    --deprecated-text-input-border-disabled: #ffffff;
+    --deprecated-text-input-prefix: #ffffff
 }
 
 .appMount-3lHmkl,
@@ -78995,4 +78995,4 @@ html .invoiceCancelRow-3mYhFX {
 }
 
 
-/*# sourceMappingURL=0.ae8aa76969441f853156.css.m
+/*# sourceMappingURL=0.ae8aa76969441f853156.cs
