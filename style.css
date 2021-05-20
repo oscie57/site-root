@@ -1,137 +1,163 @@
 @import "compass/css3";
 body {
-  font-family: 'Gilroy';
-  background-color: #2C2F33;
-  color: white;
-  margin: 0px;
+    font-family: 'Gilroy';
+    background-color: #2C2F33;
+    color: white;
+    margin: 0px;
 }
 
-  /* Makes hyperlinks same colour as text */
+
+/* Makes hyperlinks same colour as text */
+
 a {
-  color: #7289da;
+    color: #7289da;
 }
 
-p, h1, h2, h3, h4, h5, h6, img {
-  padding-left: 1%
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img {
+    padding-left: 1%
 }
 
 #list {
-  display: flex;
+    display: flex;
 }
 
 .ryalimg {
-  width: 30%;
-  height: 30%;
+    width: 30%;
+    height: 30%;
 }
 
 .newlife img {
-  width: 40%;
-  height: 40%;
-  float: right;
-  padding-left: 20px;
-  padding-right: 0px
+    width: 40%;
+    height: 40%;
+    float: right;
+    padding-left: 20px;
+    padding-right: 0px
 }
 
 .download img {
-  width: 400px;
-  height: 400px;
-  padding-top: 15px
+    width: 400px;
+    height: 400px;
+    padding-top: 15px
 }
 
 .lists {
-  padding-left: 1.5%;
+    padding-left: 1.5%;
 }
 
 .links_learn {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
+
 /* For navbar */
+
 .page-header {
-  padding: 15px;
-  padding-top: 20px;
-  background-color:#374549;
-  margin: 0px;
+    padding: 15px;
+    padding-top: 20px;
+    background-color: #374549;
+    margin: 0px;
 }
 
 .nav-logo {
-  width: 100px;
+    width: 100px;
 }
 
 .navbar {
-  text-align: right;
+    text-align: right;
 }
 
 .mobile-bars {
-display: none;
+    display: none;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
+
 /* Ensure that the navbar as a whole stays on screen. */
+
 .page-header {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
 }
 
 .nav-logo {
-float: left;
-margin: auto;
+    float: left;
+    margin: auto;
 }
 
 .page-header nav {
-float: right;
+    float: right;
 }
 
 .page-header ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .page-header li {
-float: left;
-list-style-type: none;
+    float: left;
+    list-style-type: none;
 }
 
 .page-header li a {
-display: block;
-color: white;
-text-align: center;
-padding: 10px 16px;
-text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
 }
 
 .page-header li a:hover {
-background-color: rgb(108, 128, 145);
-border-radius: 12px;
+    background-color: rgb(108, 128, 145);
+    border-radius: 12px;
+}
+
+.profile1 p {
+    width: 40%;
+    height: 40%;
+    float: right;
+    padding-left: 20px;
+    padding-right: 0px
 }
 
 .sidebar {
-  background-color: #162929;
-  padding: 40px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  justify-content: right;
-  float: right;
-  width: 20%;
+    background-color: #162929;
+    padding: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: right;
+    float: right;
+    width: 20%;
 }
 
 .item {
-  width: 100%;
-  margin: 20px;
-  text-align: center;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
 }
 
 .item-social a {
-  font-size: 20px
+    font-size: 20px
+}
+
+.profile1 img {
+    width: 200px;
+    float: left;
 }
 
 /* .project1 {
