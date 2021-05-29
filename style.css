@@ -1,4 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
 @import "compass/css3";
+
 body {
     font-family: 'Gilroy';
     background-color: #2C2F33;
