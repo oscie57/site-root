@@ -165,3 +165,7 @@ img {
 /* .project1 {
   nothing yet
 } */
+
+li, a{
+    text-decoration: none;
+}
