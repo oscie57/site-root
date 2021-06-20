@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+/* @import url('http://fonts.cdnfonts.com/css/gilroy-bold');
 @import "compass/css3";
 
 body {
@@ -7,9 +7,6 @@ body {
     color: white;
     margin: 0px;
 }
-
-
-/* Makes hyperlinks same colour as text */
 
 a {
     color: #7289da;
@@ -57,9 +54,6 @@ img {
     margin-left: 20px;
 }
 
-
-/* For navbar */
-
 .page-header {
     padding: 15px;
     padding-top: 20px;
@@ -82,9 +76,6 @@ img {
 .center {
     text-align: center;
 }
-
-
-/* Ensure that the navbar as a whole stays on screen. */
 
 .page-header {
     display: flex;
@@ -154,17 +145,13 @@ img {
 }
 
 .item-social a {
-    font-size: 20px
+    font-size: 20px;
 }
 
 .profile1 img {
     width: 200px;
     float: left;
 }
-
-/* .project1 {
-  nothing yet
-} */
 
 li, a{
     text-decoration: none;
