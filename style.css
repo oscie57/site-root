@@ -3,6 +3,7 @@
          url('fonts/gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-family: 'gilroy-extrabold';
 }
 
 body {
