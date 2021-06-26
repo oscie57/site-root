@@ -1,15 +1,16 @@
 @font-face {
-    font-family: 'gilroy-extrabold';
     src: url('fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
          url('fonts/gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-family: 'gilroy-extrabold';
 }
 
 body {
     background-color: #2C2F33;
     color: white;
     margin: 0px;
+    font-family: 'gilroy-extrabold';
 }
 
 a {
