@@ -39,6 +39,14 @@ p, h1, h2, h3, h4, h5, h6, img {
     padding-right: 0px
 }
 
+.acdp img {
+    width: 40%;
+    height: 40%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 0px
+}
+
 .download img {
     width: 400px;
     height: 400px;
