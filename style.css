@@ -1,14 +1,16 @@
 @font-face {
-    src: url('fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-         url('fonts/gilroy-extrabold-webfont.woff') format('woff');
+    src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+         url('fonts/Gilroy-Medium.woff') format('woff'),
+         url('fonts/Gilroy-SemiBold.woff2') format('woff2'),
+         url('fonts/Gilroy-SemiBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-family: 'gilroy-extrabold';
 }
 
 body {
-    background-color: #2C2F33;
-    color: white;
+    background-color: white;
+    color: darkslategrey;
     margin: 0px;
     font-family: 'gilroy-extrabold';
 }
@@ -139,14 +141,13 @@ p, h1, h2, h3, h4, h5, h6, img {
 }
 
 .sidebar {
-    background-color: #162929;
     padding: 40px;
-    color: white;
     display: flex;
     justify-content: center;
     justify-content: right;
     float: right;
     width: 20%;
+    background-color: lightgrey;
 }
 
 .item {
@@ -168,6 +169,20 @@ li, a{
     text-decoration: none;
 }
 
-.tyecdp {
+.tymcd {
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: right;
+    float: right;
+}
+
+.mcduPage {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%
 }
