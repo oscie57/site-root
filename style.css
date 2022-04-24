@@ -186,3 +186,77 @@ li, a{
     padding-top: 2%;
     padding-bottom: 2%
 }
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    width: 40%;
+    margin: 5px;
+}
+
+.publicly-available {
+    background-color: rgb(48, 176, 46);
+    padding: 10px;
+}
+
+.not-started {
+    background-color: rgb(184, 17, 17);
+    padding: 10px;
+}
+
+.private-beta {
+    background-color: rgb(24, 120, 190);
+    padding: 10px;
+}
+
+.in-development {
+    background-color: rgb(201, 103, 44);
+    padding: 10px;
+}
+
+.section {
+    padding: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section h1, .section p, .section li, .section h2, .section h3, .section h4, .section h5 {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section a {
+    color: #01cb2b;
+}
+
+
+.section table {
+    border-collapse: collapse;
+    width: 60%;
+    font-size: 24px;
+    margin-left: 20%;
+}
+  
+.section td, th {
+    text-align: left;
+    padding: 15px;
+    border: 3px solid #000;
+}
+
+.section th {
+    background-color: #111;
+    font-size: 28px;
+}
+
+.section tr {
+    background-color: #222;
+}
+
+.section table {
+    color: white
+}
