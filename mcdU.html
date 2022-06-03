@@ -1,156 +1,172 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>nthe - ecdp/esmart2.0 guide</title>
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="assets/material-design-icons/css/materialdesignicons.min.css">
-        <link rel="icon" href="https://oscie.net/assets/logo.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:url" content="https://oscie.net/ecdpU-ex.html">
+        <title>eCDP/eSMART 2.0 Wii U Guide</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:url" content="https://oscie.net/">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="nthe - ecdp/esmart 2.0 wiiu guide">
-        <meta property="og:description" content="mcdonald's jingle plays">
+        <meta property="og:title" content="eCDP/eSMART 2.0 guide for Wii U">
+        <meta property="og:description" content="McDonald's Jingle Plays">
         <meta property="og:image" content="https://oscie.net/assets/logo.png">
     </head>
+
     <body>
-        <div class="page-header">  
-            <a href="index.html" class="nthe-logo">
-                <img src="assets/header-logo.png" alt="nthe logo" class="nav-logo"/>
-            </a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html"><i class="mdi mdi-home"></i> Home</a>
-                    </li>
-                    <li>
-                        <a href="bot.html"><i class="mdi mdi-laptop"></i> Bot</a>
-                    </li>
-                    <li>
-                        <a href="mcdU.html"><i class="mdi mdi-book-open-variant"></i> eCDP/eSMART Guide</a>
-                    </li>
-                    <li>
-                        <a href="projects.html"><i class="mdi mdi-file"></i> Projects</a>
-                    </li>
-                    <li>
-                        <a href="progress.html"><i class="mdi mdi-file"></i> Progress</a>
-                      </li>
-                    <li>
-                        <a href="mii.html"><i class="mdi mdi-account-box"></i> My Mii</a>
-                    </li>
-                    <li>
-                        <a href="siteindex.html"><i class="mdi mdi-alert-octagon"></i> Index</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <section class="hero is-fullheight">
+            <div id="main-wrapper" class="hero-body">
+                <div id="main" class="container is-widescreen has-text-left">
+                    <section class="hero">
+                        <div id="logo-window" class="hero-body has-shading">
+                            <img src="images/square.png" alt="oscie" style="width: 200px; min-width: 10px; vertical-align: middle;">
+                        </div>
+                    </section>
+                    <div class="has-text-black" style="min-width: 400px; max-width: 600px">
+                        <div class="block">
+                            <p class="title is-4"><a href="index.html" class="has-text-black link">Home</a></p>
+                            <p class="title is-4"><a href="bot.html" class="has-text-black link">Bot</a></p>
+                            <p class="title is-4"><a href="mcdU.html" class="has-text-black link">eCDP/eSMART Guide</a></p>
+                            <p class="title is-4"><a href="projects.html" class="has-text-black link">Projects</a></p>                            
+                        </div>
+                        <div class="block">
+                            <p class="title is-5"><a href="progress.html" class="has-text-black link">Project Progress</a></p>
+                            <p class="title is-5"><a href="mii.html" class="has-text-black link">Mii Creation Guide</a></p>
+                            <p class="title is-5"><a href="siteindex.html" class="has-text-black link">Site/Subdomain Index</a></p>
+                            <p class="title is-5"><a href="todolist.html" class="has-text-black link">Website Roadmap</a></p>
+                        </div>
+                        <p class="subtitle is-6" class="has-text-black link">Design inspired by <a href="https://wicy.cool/">Wicycool</a>, using <a href="https://bulma.io">Bulma</a></p>
+                    </div>
+                </div>
+                <div id="main" class="container is-widescreen has-left-left">
+                    <div class="has-text-black">
+                        <div class="block">
+                            <h1 class="title">
+                                eCDP/eSMART on WiiU - How to set it up
+                            </h1>                      
+                        </div>
+                        <div class="box">
+                            <h3>There is a way to set up eCDP and eSMART 2.0 on a Wii U, this guide explains how to do that. Created by oscie</h3>
+                        </div>
 
-        <div class="mcduPage">
+                        <div class="notification is-link">
+                            <div class="columns">
+                                <div class="column" style="text-align: center;">
+                                    <p>Special thanks to <a href="https://twitter.com/nemukate">Kate</a> and <a href="https://twitter.com/ImPurpl3_">ImPurpl3</a> for help with making the guide 💜</p>
+                                </div>
+                                <div class="column" style="text-align: center;">
+                                    <p>Thanks to <a href="https://twitter.com/code1038/">code1038</a> and <a href="https://twitter.com/forestillusion/">Forest of Illusion</a> for dumping <a href="https://joeyarchives.me/McD/games/esmart.html">eSMART 2.0</a> 💛</p>
+                                </div>
+                                <div class="column" style="text-align: center;">
+                                    <p>Thanks to <a href="https://twitter.com/Babylonian">Nick Robinson</a> and <a href="https://twitter.com/code1038/">code1038</a> for finding and dumping <a href="https://joeyarchives.me/McD/games/ecdp.html">eCDP</a> 💚</p>
+                                </div>
+                                <div class="column" style="text-align:center;">
+                                    <p>Thanks to <a href="https://twitter.com/IAmTh3Person">IAmThePerson</a> for creating <a href="https://joeyarchives.me/index.html">ecdp.tech</a> and archiving info 🧡</p>
+                                </div>
+                                <div class="column" style="text-align: center;">
+                                    <p>The version of this guide is <b>Version 3.0</b> &mdash; Website redesign</p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="block">
+                            <div class="columns">
+                                <div class="column">
+                                    <div class="notification is-primary">
+                                        To use this, you need a Wii U with CFW (use <a href="http://wiiu.hacks.guide">this guide</a> to install it, once done, make sure you have Tiramisu running as you follow the guide) and any DS game with Nintendo WFC connection (i.e. Mario Kart DS) as a Virtual Console game for online (eCDP ONLY)
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <article class="message is-info">
+                                        <div class="message-header">
+                                            Injects
+                                            <button class="button is-link">Download</button>
+                                        </div>
+                                        <div class="message-body">
+                                           To download the required game injects, click the Download button. For Wii U, get the WUP versions, but for CEMU, get the WUD versions.
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
 
-            
-            <h1>eCDP/eSMART on WiiU - How to set it up.</h1>
+                        <div class="block">
+                            <h2 class="subtitle">
+                                Step 1 - Moving Files
+                            </h2>
+                            
+                            <ol style="padding-left: 30px;">
+                                <li>Put your SD card into your computer.</li>
+                                <li>Find the "install" folder on the root.
+                                <li>Extract the zip into the folder
+                                <li>Put the SD card back in the Wii U
+                            </ol>
+                        </div>
 
-            <p>There is a way to set up eCDP and eSMART 2.0 on a Wii U, this guide explains how to do it. Created by oscie</p>
+                        <div class="block">
+                            <h2 class="subtitle">
+                                Step 2 - Installing the game
+                            </h2>
+                            
+                            <ol style="padding-left: 30px;">
+                                <li>Turn on your Wii U and open up the Homebrew Channel via Mii Maker</li>
+                                <li>Open up "WUP Installer GX" (if you don't have it, grab it <a href="https://sourceforge.net/projects/wup-installer-gx2/">here</a>)</li>
+                                <li>Select eCDP/eSMART 2.0 and click Install</li>
+                                <li>Wait for it to install and exit the homebrew channel.</li>
+                            </ol>
+                        </div>
 
-            <h2>Preparations</h2>
+                        <div class="notification is-danger">
+                            The following information is to setup the save for eCDP <strong>ONLY</strong>. If you are planning to play eSMART 2.0, then you do not need to follow this guide, as it does not have a password system.
+                        </div>
 
-            <p>To prepare for this, you need a Wii U with CFW (use <a href="http://wiiu.hacks.guide">this guide</a> to install it, once done, make sure you have Tiramisu running as you follow the guide) and any DS game with Nintendo WFC connection (i.e. Mario Kart DS) as a Virtual Console game for online (eCDP ONLY)</p>
+                        <div class="block">
+                            <h2 class="subtitle">
+                                Step 3 - Obtaining the MAC Address
+                            </h2>
+                            <p>For this I will be using Mario Kart DS, other games can and will be different.</p>
 
-            <h3>Injects</h3>
+                            <ol style="padding-left: 30px;">
+                                <li>Open Mario Kart DS as stated in the preparations</li>
+                                <li>Tap on "Nintendo WFC" and ignore prompts</li>
+                                <li>Tap on "Nintendo WFC settings" and head to options</li>
+                                <li>Once there, click on System Information and write down the MAC Address</li>
+                            </ol>
+                        </div>
 
-            <ul>
-                <li><a href="https://cloud.oscie.net/mcdu">McDonald's eCDP + eSMART 2.0 Injects</a></li>
-                <li>For Wii U, get the [WUP] versions</li>
-                <li>For CEMU, get the [WUD] versions (might be buggy)</li>
-            </ul>
+                        <div class="block">
+                            <h2 class="subtitle">
+                                Step 4 - Getting your Serial Code
+                            </h2>
 
-            <h2>Wii U Guide</h2>
+                            <ol style="padding-left: 30px;">
+                                <li>Click on <a href="http://ecdp.cbps.xyz">this</a> and type in your serial code.</li>
+                                <li>Set any Store ID and Store Management you want but make sure to write it down.</li>
+                                <li>Click on place offering and write down the serial code you are given.</li>
+                            </ol>
+                        </div>
 
-            <h3>Steps to Install</h3>
+                        <div class="block">
+                            <h2 class="subtitle">
+                                Step 5 - Making the eCDP save
+                            </h2>
 
-            <h4>Step 1 - Moving Files</h4>
+                            <ol style="padding-left: 30px;">
+                                <li>Open up the game from your Wii U home menu.</li>
+                                <li>Click on the bottom option and type in the Store ID you set earlier.</li>
+                                <li>Press the button on the bottom of the keyboard</li>
+                                <li>Type in the Store Management ID you set earlier and press the button on the bottom of the keyboard.</li>
+                                <li>Next type in your serial code and once again press the button on the bottom of the keyboard</li>
+                                <li>Now this is where you set the manager ID and password, I recommend setting them both to "482500" so they match up with everyone else's code.</li>
+                            </ol>
+                        </div>
 
-            <ol>
-                <li>Put your SD card into your computer.</li>
-                <li>Find the "install" folder on the root.</li>
-                <li>Extract the zip into the folder</li>
-                <li>Put the SD card back in the Wii U</li>
-            </ol>
-
-            <h4>Step 2 - Installing the game</h4>
-
-            <ol>
-                <li>Turn on your Wii U and open up the Homebrew Channel via Mii Maker</li>
-                <li>Open up "WUP Installer GX" (if you don't have it, grab it <a href="https://sourceforge.net/projects/wup-installer-gx2/">here</a>)</li>
-                <li>Select eCDP/eSMART 2.0 and click Install</li>
-                <li>Wait for it to install and exit the homebrew channel.</li>
-            </ol>
-
-            <h3>---- eCDP ONLY | Setting up Save ----</h3>
-
-            <h4>Step 3 - Getting the MAC Address</h4>
-            <p>For this I will be using Mario Kart DS, other games can and will be different.</p>
-            <ol>
-                <li>Open up Mario Kart DS as stated in preparations.</li>
-                <li>Tap on "Nintendo WFC" and ignore prompts.</li>
-                <li>Tap on "Nintendo WFC settings" and go to options.</li>
-                <li>Once there click on System Information and write down the MAC Address</li>
-            </ol>
-
-            <h4>Step 4 - Getting your serial code</h4>
-
-            <ol>
-                <li>Click on <a href="http://ecdp.cbps.xyz">this</a> and type in your serial code.</li>
-                <li>Set any Store ID and Store Management you want but make sure to write it down.</li>
-                <li>Click on place offering and write down the serial code you are given.</li>
-            </ol>
-
-            <h4>Step 5 - Making the eCDP save</h4>
-
-            <ol>
-                <li>Open up the game from your Wii U home menu.</li>
-                <li>Click on the bottom option and type in the Store ID you set earlier.</li>
-                <li>Press the button on the bottom of the keyboard</li>
-                <li>Type in the Store Management ID you set earlier and press the button on the bottom of the keyboard.</li>
-                <li>Next type in your serial code and once again press the button on the bottom of the keyboard</li>
-                <li>Now this is where you set the manager ID and password, I recommend setting them both to “482500” so they match up with everyone else's code.</li>
-            </ol>
-
-            <p>Now you can explore eCDP to your heart's content!</p>
-
-            <h2>CEMU Guide</h2>
-
-            <h4>Step 0 - Setting up CEMU</h4>
-            <p>This guide assumes you have CEMU setup for use. If not, please follow the guide at <a href="https://cemu.hacks.guide">cemu.hacks.guide</a></p>
-
-            <h4>Step 1 - Preparing files</h4>
-            <ol>
-                <li>Make sure you have [WUD]eSMART.zip downloaded somewhere.</li>
-                <li>Extract this zip into a folder, any folder.</li>
-                <li>Open the folder and make sure you have the "content", "meta" and "code" folders inside.</li>
-            </ol>
-
-            <h4>Step 2 - Installing</h4>
-            <ol>
-            <li>Open up CEMU</li>
-            <li>Move your cursor to the top left and go to "File".</li>
-            <li>Click on "Install game title, update or DLC".</li>
-            <li>Navigate through the file explorer until you find the folder we extracted our zip to.</li>
-            <li>Open the "meta" folder and double click on "meta.xml".</li>
-            <li>Wait until it is installed, and restart CEMU.</li>
-            </ol>
-            <p>You should now have eSMART setup for use in CEMU! Just a warning - it can be quite buggy so do be aware.</p>
-
-            <div class="tymcd">
-                <p>Special thanks to <a href="https://twitter.com/nemukate">Kate</a> and <a href="https://twitter.com/ImPurpl3_">ImPurpl3</a> for help with making the guide 💜</p>
-                <p>Thanks to <a href="https://twitter.com/code1038/">code1038</a> and <a href="https://twitter.com/forestillusion/">Forest of Illusion</a> for dumping <a href="https://joeyarchives.me/McD/games/esmart.html">eSMART 2.0</a> 💛</p>
-                <p>Thanks to <a href="https://twitter.com/Babylonian">Nick Robinson</a> and <a href="https://twitter.com/code1038/">code1038</a> for finding and dumping <a href="https://joeyarchives.me/McD/games/ecdp.html">eCDP</a> 💚</p>
-                <p>Thanks to <a href="https://twitter.com/IAmTh3Person">IAmThePerson</a> for creating <a href="https://joeyarchives.me/index.html">ecdp.tech</a> and archiving info 🧡</p>
-                <p>The version of this guide is <b>Version 2.1.1</b>. Updated Modding Link (Tiramisu)&mdash;Added WUP Installer GX link&mdash;Corrected launch for HBL&mdash;Changed download links</p>
+                        <div class="notification is-success">
+                            You have now completed the setup for <strong>eCDP/eSMART 2.0</strong> on your Wii U. I hope you enjoy the game!
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
-
-
-        </div>
-
+        </section>
     </body>
 </html>
