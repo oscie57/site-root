@@ -1,85 +1,161 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>nthe - home</title>
-        <link rel="stylesheet" href="../style.css">
-        <link rel="stylesheet" href="assets/material-design-icons/css/materialdesignicons.min.css">
-        <link rel="icon" href="https://oscie.net/en/assets/logo.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:url" content="https://oscie.net/en">
+        <title>Home</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:url" content="https://oscie.net/">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="nthe - home">
+        <meta property="og:title" content="Home">
         <meta property="og:description" content="no thoughts, head empty">
         <meta property="og:image" content="https://oscie.net/assets/logo.png">
     </head>
 
     <body>
-        <div class="page-header">
-            <a href="index.html" class="nthe-logo">
-                <img src="assets/header-logo.png" alt="nthe logo" class="nav-logo" />
-            </a>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html"><i class="mdi mdi-home"></i> Home</a>
-                    </li>
-                    <li>
-                        <a href="bot.html"><i class="mdi mdi-laptop"></i> Bot</a>
-                    </li>
-                    <li>
-                        <a href="mcdU.html"><i class="mdi mdi-book-open-variant"></i> eCDP/eSMART Guide</a>
-                    </li>
-                    <li>
-                        <a href="projects.html"><i class="mdi mdi-file"></i> Projects</a>
-                    </li>
-                    <li>
-                        <a href="progress.html"><i class="mdi mdi-file"></i> Progress</a>
-                      </li>
-                    <li>
-                        <a href="mii.html"><i class="mdi mdi-account-box"></i> My Mii</a>
-                    </li>
-                    <li>
-                        <a href="siteindex.html"><i class="mdi mdi-alert-octagon"></i> Index</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <h1>Home</h1>
-        <p>This is a site that I will use for random stuff and to sometimes host files I need :P</p>
-        <p>Site still in development, visit bottom of page for credits</p>
-        <br>
-        <p>For now, wait</p>
-        <div class="profile1">
-            <h2>About me</h2>
-            <img src="assets/square.png" class="profile1">
-            <p>Hi, my name is oscie. I like to make things and do things :D. Currently, I am a full-time student in High School and like to work on small projects (or big ones) in my free time. If you look on the right, you can see my social medias so go check them out! I also stream in my free time and work on translating small things like the Wii Room calendar currently for example. I find joy in barely any things but I still do! If you wanna ask me any questions, DM me on Discord (@oscie#0001).</p>
-        </div>
-
-        <div class="sidebar">
-            <div class="item">
-                <h2 class="mdi mdi-party-popper"> Credits</h2>Web help from <a style="text-decoration:none" href="http://jordiisepic.me/">Jordiisepic</a>, ChelonianEgghead. Inspiration (and some assets
-                taken) from <a style="text-decoration:none" href="https://wiilink24.com">WiiLink24</a>
-                <br><br/> Site Made by Oscie - <a style="text-decoration:none" href="https://discord.gg/ymb84qM54A">Join my Discord</a> and <a style="text-decoration:none" href="https://github.com/nt-he/website">see the source code!</a> Copyright
-                infringment (where shown) is not intended, and all creators will be credited here as per.
+        <section class="hero is-fullheight">
+            <div id="main-wrapper" class="hero-body">
+                <div id="main" class="container is-widescreen has-text-left">
+                    <section class="hero">
+                        <div id="logo-window" class="hero-body has-shading">
+                            <img src="images/square.png" alt="oscie" style="width: 200px; min-width: 10px; vertical-align: middle;">
+                        </div>
+                    </section>
+                    <div class="has-text-black" style="min-width: 400px; max-width: 600px">
+                        <div class="block">
+                            <p class="title is-4"><a href="index.html" class="has-text-black link">Home</a></p>
+                            <p class="title is-4"><a href="bot.html" class="has-text-black link">Bot</a></p>
+                            <p class="title is-4"><a href="mcdU.html" class="has-text-black link">eCDP/eSMART Guide</a></p>
+                            <p class="title is-4"><a href="projects.html" class="has-text-black link">Projects</a></p>                            
+                        </div>
+                        <div class="block">
+                            <p class="title is-5"><a href="progress.html" class="has-text-black link">Project Progress</a></p>
+                            <p class="title is-5"><a href="mii.html" class="has-text-black link">Mii Creation Guide</a></p>
+                            <p class="title is-5"><a href="siteindex.html" class="has-text-black link">Site/Subdomain Index</a></p>
+                        </div>
+                        <p class="subtitle is-6" class="has-text-black link">Design inspired by <a href="https://wicy.cool/">Wicycool</a>, using <a href="https://bulma.io">Bulma</a></p>
+                    </div>
+                </div>
+                <div id="main" class="container is-widescreen has-left-left">
+                    <div class="has-text-black">
+                        <div class="block">
+                            <h1 class="title">
+                                Home
+                            </h1>                      
+                        </div>
+                        <div class="box">
+                            <h3>Hello there, my name is oscie. I like to create things, and do things, and play things! I am a full-time student (going to high school) and like to work on small (or big) projects in my free time.</h3>
+                        </div>
+                        <div class="columns">
+                            <div class="column">
+                                <article class="message is-info">
+                                    <div class="message-header">
+                                        What are your pronouns?
+                                    </div>
+                                    <div class="message-body">
+                                        My pronouns are He/They but I dont mind which you use! If you mess up a few times, then thats okay!
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="column">
+                                <article class="message is-info">
+                                    <div class="message-header">
+                                        Where are you from?
+                                    </div>
+                                    <div class="message-body">
+                                        I am from the United Kingdom, and I live on the border between England and Wales. I really like it here, there's nice scenery.
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="column">
+                                <article class="message is-info">
+                                    <div class="message-header">
+                                        What do you do?
+                                    </div>
+                                    <div class="message-body">
+                                        I currently develop things in my free time, though I dont have much since I have to juggle around social life and school, but I try my best!
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column">
+                                <article class="message is-info">
+                                    <div class="message-header">
+                                        Likes:
+                                    </div>
+                                    <div class="message-body">
+                                        Taiko no Tatsujin, VR, Heartstopper and my friends!
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="column">
+                                <article class="message is-info">
+                                    <div class="message-header">
+                                        Dislikes:
+                                    </div>
+                                    <div class="message-body">
+                                       Conflict, people who refuse to listen, and mayonnaise. Ew.
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="block">
+                            <h1 class="title">
+                                Check this out!
+                            </h1>
+                            <div class="columns">
+                                <div class="column">
+                                    <article class="message is-info">
+                                        <div class="message-header">
+                                            tiktok-voice
+                                            <a style="text-decoration:none" href="https://github.com/oscie57/tiktok-voice"><button class="button is-link">Visit</button></a>
+                                        </div>
+                                        <div class="message-body">
+                                            A small project I have been working on that allows you to turn TikTok's Text-to-Speech into an MP3 file!
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="column">
+                                    <article class="message is-info">
+                                        <div class="message-header">
+                                            Discord Server
+                                            <a style="text-decoration:none" href="https://discord.gg/ymb84qM54A"><button class="button is-link">Join</button></a>
+                                        </div>
+                                        <div class="message-body">
+                                            I own a Discord server based around my projects and my Twitch streams! Come check it out :D
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="columns">
+                                <div class="column">
+                                    <article class="message is-info">
+                                        <div class="message-header">
+                                            Donations
+                                            <a style="text-decoration:none" href="https://buymeacoffee.com/oscie"><button class="button is-link">Buy me a Coffee</button></a>
+                                        </div>
+                                        <div class="message-body">
+                                            If you really like my work or just want to support me, please do! I appreciate it alot! You can do it by clicking on the button above!
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="column">
+                                    <article class="message is-info">
+                                        <div class="message-header">
+                                            Animal Crossing Dynamic Player
+                                            <a style="text-decoration:none" href="https://github.com/oscie57/acdp"><button class="button is-link">Visit</button></a>
+                                        </div>
+                                        <div class="message-body">
+                                            A Python script that lets you listen to music from the Animal Crossing series, depending on your real-life location and time. Try it out!
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="item">
-                <h2><i class="mdi mdi-earth"></i> Social Media</h2>
-                <a style="text-decoration:none" href="https://github.com/Oscie57" rel="noopener"><i class="mdi mdi-github"></i> GitHub</a>
-                <br>
-                <a style="text-decoration:none" href="https://discord.gg/ymb84qM54A" rel="noopener"><i class="mdi mdi-discord"></i> Discord</a>
-                <br>
-                <a style="text-decoration:none" href="https://twitter.com/oscie57" rel="noopener"><i class="mdi mdi-twitter"></i> Twitter</a>
-                <br>
-                <a style="text-decoration:none" href="https://www.youtube.com/c/Oscie" rel="noopener"><i class="mdi mdi-youtube"></i> YouTube</a>
-                <br>
-                <a style="text-decoration:none" href="https://www.instagram.com/oscie057/" rel="noopener"><i class="mdi mdi-instagram"></i> Instagram</a>
-                <br>
-                <a style="text-decoration:none" href="https://www.reddit.com/user/OscarPlays57" rel="noopener"><i class="mdi mdi-reddit"></i> Reddit</a>
-                <br>
-                <a style="text-decoration:none" href="mailto:me@oscie.net" rel="noopener"><i class="mdi mdi-at"></i> Email</a>
-                <br>
-                <a style="text-decoration:none" href="https://www.twitch.tv/oscie57" rel="noopener"><i class="mdi mdi-twitch"></i> Twitch</a>
-              </div>
-        </div>
+        </section>
     </body>
 </html>
