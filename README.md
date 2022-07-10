@@ -1,4 +1,4 @@
-# oscie57.github.io
+# oscie57.github.io/feature-jekyll-transition
 A website for oscie
 
 ## Things to do
