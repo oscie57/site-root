@@ -23,8 +23,6 @@ Idk why I didnt just do this here
 
 - Cool McDonald's audio
 
-- [] Setup "Ruby" and "Jekyll"
-
 - Complete Pages
 
 - Fix the dumb sidebar moving
