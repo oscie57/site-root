@@ -25,8 +25,8 @@ Idk why I didnt just do this here
 
 - Complete Pages
 
-- Fix the dumb sidebar moving
-
-- Add socials somewhere
+- Add socials somewhere (half done)
 
 - Complete Privacy and Contact
+
+- Mobile stuff
