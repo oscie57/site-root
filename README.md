@@ -17,15 +17,9 @@ WiiLink24 - Jekyll Template
 Idk why I didnt just do this here
 
 
-- Add sound effects to website
-
 - Create nice animations
 
-- Cool McDonald's audio
-
 - Complete Pages
-
-- Add socials somewhere (half done)
 
 - Complete Privacy and Contact
 
