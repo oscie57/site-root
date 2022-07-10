@@ -8,3 +8,9 @@ body {
 a {
     text-decoration:none;
 }
+
+.sidebar {
+    align-self: flex-end;
+    position: sticky;
+    bottom: 24px;
+}
