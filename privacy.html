@@ -13,14 +13,13 @@ layout: no-section
         <h1 class="subtitle">
             Last Updated
         </h1>
-        <p>
-            Last updated: []date[]
+    
+            <span id="commit-author" class="subtitle is-6">AUTHOR</span> <a id="commit-link" href="LINK"><span id="commit-id" class="subtitle is-7">ID</span></a>
             <br>
-            Last commit: []commit_id[] - commit_user
+            <span id="commit-message" class="subtitle is-5">MESSAGE</span>
             <br>
-            > commit_message
-
-        </p>
+            <span time="" id="commit-date" class="subtitle is-7">DATE</span>
+        
     </div>
     <div class="block">
         <h1 class="title">
@@ -50,3 +49,15 @@ layout: no-section
     </div>
 
 </div>
+
+<script>
+fetch('https://api.github.com/repos/oscie57/oscie57.github.io/commits?per_page=1')
+.then(resp => resp.json())
+.then(resp => {
+    document.getElementById('commit-author').innerHTML = resp[0].commit.committer.name
+    document.getElementById('commit-message').innerHTML = resp[0].commit.message
+    document.getElementById('commit-link').href = resp[0].parents[0].html_url
+    document.getElementById('commit-id').innerHTML = resp[0].sha.slice(0, 6)
+    document.getElementById('commit-date').innerHTML = resp[0].commit.committer.date.replace("T", " ").replace("Z", "")
+})
+</script>

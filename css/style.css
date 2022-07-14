@@ -14,3 +14,7 @@ a {
     position: sticky;
     bottom: 24px;
 }
+
+code {
+    color: slategrey;
+}
