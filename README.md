@@ -16,11 +16,4 @@ WiiLink24 - Jekyll Template
 ## Things to do
 Idk why I didnt just do this here
 
-
-- Create nice animations
-
-- Complete Pages
-
-- Complete Privacy and Contact
-
-- Mobile stuff
+moved to [project1](https://github.com/oscie57/oscie57.github.io/projects/1)
