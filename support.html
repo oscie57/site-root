@@ -24,7 +24,7 @@ layout: no-donate
 <article class="message is-warning">
     <div class="message-header">
         Buy me a Coffee
-        <a style="text-decoration:none" href="https://buymeacoffee.com/oscie"><button class="button is-warning is-light">Visit</button></a>
+        <a style="text-decoration:none" href="{{ site.bmac }}"><button class="button is-warning is-light">Visit</button></a>
     </div>
 
     <div class="message-body">
@@ -39,14 +39,14 @@ layout: no-donate
     </div>
 
     <div class="message-body">
-        Ko-fi can be used to donate via this page, but has an <a href="https://ko-fi.com/oscie">external page</a> if prefered. Click "Donate". Minimum donation is £1. <strong>This is the recommended donation method.</strong>
+        Ko-fi can be used to donate via this page, but has an <a href="{{ site.kofi }}">external page</a> if prefered. Click "Donate". Minimum donation is £1. <strong>This is the recommended donation method.</strong>
     </div>
 </article>
 
 <article class="message is-info">
     <div class="message-header">
         PayPal
-        <a style="text-decoration:none" href="https://www.paypal.me/oscie57"><button class="button is-info is-light">Visit</button></a>
+        <a style="text-decoration:none" href="{{ site.paypal }}"><button class="button is-info is-light">Visit</button></a>
     </div>
 
     <div class="message-body">
@@ -70,7 +70,7 @@ layout: no-donate
       
     <div class="modal-content">
         <div class="box">
-            <iframe id='kofiframe' src='https://ko-fi.com/oscie/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='oscie'></iframe>
+            <iframe id='kofiframe' src='{{ site.kofi }}/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='oscie'></iframe>
         </div>
     </div>
 </div>
