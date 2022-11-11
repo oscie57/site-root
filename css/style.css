@@ -18,3 +18,11 @@ a {
 code {
     color: slategrey;
 }
+
+.arrow {
+    color: grey;
+}
+
+li {
+    padding-left: 3%;
+}
