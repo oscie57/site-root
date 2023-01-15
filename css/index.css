@@ -1,0 +1,22 @@
+body {
+    background-image: url('/assets/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+section {
+    display: flex;
+    padding: 5px;
+
+    flex-direction: column;
+}
+
+article {
+    padding: 1%;
+    text-align: center;
+}
+
+.container {
+    background-color: #FFFFFF40;
+}

@@ -1,97 +1,42 @@
----
-title: oscie
-layout: content-only
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<img src="assets/square.png" alt="oscie" style="width: 200px; min-width: 10px; vertical-align: middle;">
+    <title>oscie.net</title>
 
-<br><br>
+    <link rel="stylesheet" href="/css/style.css">
 
-<h1 class="title">
-    oscie
-</h1>
+    <meta property="og:title" content="oscie.net" />
+    <meta property="og:description" content="no thoughts, head empty">
+    <meta property="og:image" content="//oscie.net/assets/square.png">
+</head>
+<body>
+    <div class="container">
+        <section>
+            <!-- LEFT TOP PART | Profile Picture -->
+            <article>
+                <img src="/assets/square.png" alt="Profile picture" width="15%">
+            </article>
 
-<a href="//twitter.com/oscie57"><span class="mdi mdi-twitter"></span> Twitter</a>&nbsp;
-<a href="{{ site.discord }}"><span class="mdi mdi-discord"></span> Discord</a>&nbsp;
-<a href="{{ site.github }}"><span class="mdi mdi-github"></span> GitHub</a>
+            <!-- LEFT BOTTOM PART | Personal Info -->
+            <article>ITEM 1 | ITEM 2</article>
+        </section>
 
-<br><br>
+        <section>
+            <!-- RIGHT TOP PART | Socials -->
+            <article>Social buttons brr</article>
 
-<p class="content" style="padding-left: 20%; padding-right: 20%;">
-    hello there, i'm oscar! i am 14 years old, i'm from england and i go by he/him (they/them is fine too!). i like alot of things revolving around real life and on the internet!
-    <br><br>
-    i find enjoyment out of developing stuff like discord bots, websites and game mods or literally anything, and recently annotating music i enjoy to a gcse exam level.
-    <br><br>
-    primarily, i speak english natively, with a lower-conversational level of french, so i can use both if needed.
-</p>
-
-<button class="button is-link is-small trigger-js-modal" data-target="likesmodal">likes/dislikes</button>
-<a href="/fun/index.html"><button class="button is-link is-small">fun stuff</button></a>
-<button class="button is-link is-small trigger-js-modal" data-target="specsmodal">pc specs n consoles</button>
-
-<br><br>
-
-<a href="/home"><button class="button is-medium">go to website</button></a>
-
-
-<div id="likesmodal" class="modal">
-    <div class="modal-background"></div>
-      
-    <div class="modal-content">
-        <div class="box">
-            <h2 class="subtitle">
-                likes
-            </h2>
-            <p>
-                python 3.10 ・ komi cant communicate ・ just dance ・ doraemon ・ nintendo wii u and dsi ・ heartstopper ・ talking to friends ・ the internet ・ omori and undertale ・ taiko no tatsujin ・ beat saber and vrchat ・ console modding ・ mango
-            </p>
-
-            <br>
-
-            <h2 class="subtitle">
-                dislikes
-            </h2>
-            <p>
-                young people ・ conflict ・ nfts ・ easyanticheat ・ discourse ・ arguing ・ confrontation ・ peas and beans ・ mayonnaise ・ purposefully annoying people ・ my brothers ・ (most) anime
-            </p>
-        </div>
+            <!-- RIGHT BOTTOM PART | Personal Description -->
+            <article>My name my age my favourite colour my height my sign do I have a lover what's my nationality here's some things that inspire me my favourite food my colour and my shoe size.</article>
+        </section>
     </div>
-</div>
-
-<div id="specsmodal" class="modal">
-    <div class="modal-background"></div>
-      
-    <div class="modal-content">
-        <div class="box">
-            <h2 class="subtitle">
-                pc
-            </h2>
-            <p>
-                <strong>case</strong> cyberpower pc case (not sure which) ・ <strong>graphics</strong> nvidia geforce gtx 1650 ・ <strong>memory</strong> 2x 8gb corsair vengence ・ <strong>cpu</strong> amd ryzen 5 3400g ・ <strong>board</strong> msi b450 tomahawk max ii atx ・ <strong>internet</strong> 250 down 50 up ・ <strong>storage</strong> hdd: 2.5tb (over 3 drives), ssd: 250gb
-            </p>
-
-            <br>
-
-            <h2 class="subtitle">
-                consoles
-            </h2>
-            <p>
-                nintendo switch ・ nintendo wii u (black 32gb) ・ nintendo 2ds (black and blue) ・ nintendo dsi (blue)
-            </p>
-
-            <br>
-
-            <h2 class="subtitle">
-                other
-            </h2>
-            <p>
-                iphone 8 64gb ・ samsung galaxy s8 ・ oculus quest 2
-            </p>
-        </div>
-    </div>
-</div>
+    
 
 
-{% include donate.html %}
-
-<script src="scripts/modal.js"></script>
+    <button>My first button.</button>
+    
+</body>
+</html>
