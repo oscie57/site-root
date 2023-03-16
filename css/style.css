@@ -1,8 +1,10 @@
 @font-face {
     font-family: nintendo_NTLG;
-    src: url(/assets/CAFESTD.woff),
-    url(/assets/CAFESTD.woff2);
+    src: url(/assets/nintendo_NTLG.woff),
+    url(/assets/nintendo_NTLG.woff2);
 }
+
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
 
 body {
     background-image: url('/assets/bg.png');
@@ -16,11 +18,11 @@ body {
     padding-left: 25%;
     padding-right: 25%;
     padding-top: 12%;
+
+    font-weight: normal !important;
 }
 
-html, body {
-    height: 100%;
-}
+
 
 section {
     padding: 5px;
@@ -51,7 +53,6 @@ img {
     height: 20%;
     border-radius:5px;
     font-size: 16px;
-    font-family: nintendo_NTLG;
 }
 
 
@@ -67,8 +68,7 @@ img {
 .flexbutton {
     background-color: #FFFFFF00;
     border:none;
-    font-size: 16px;
-    font-family: nintendo_NTLG;
+    font-size: 22px;
     padding: 5px;
     width: 50px;
     
