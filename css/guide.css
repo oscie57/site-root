@@ -1,0 +1,152 @@
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-image: url('/assets/ecdp.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+
+    font-family: "Nunito", sans-serif;
+
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(239, 239, 239);
+    text-decoration:underline;
+}
+
+code {
+    color: slategrey;
+}
+
+.arrow {
+    color: grey;
+}
+
+li {
+    padding-left: 3%;
+}
+
+section {
+    font-weight: normal;
+}
+
+
+/* Notification Box CSS */
+
+#notification-blue {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    background-color: rgb(72, 95, 199);
+
+    color: white;
+
+    border-radius:5px;
+}
+
+#notification-yellow {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    background-color: rgb(229, 171, 45);
+
+    color: white;
+
+    border-radius:5px;
+}
+
+
+/* Scroll Bar CSS */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(86, 125, 166)
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(79, 108, 150);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(62, 83, 119);
+}
+
+
+/* Sidebar CSS */
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #FFFFFF10;
+    padding: 5px;
+}
+
+.sidebar-head {
+    line-height: 15pt;
+    text-align: right;
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar-body {
+    overflow-y:scroll;
+}
+    
+.sidebar-body a {
+    padding: 8px;
+    font-size: 24px;
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform:translate(-50%,0);
+}
+
+.sidebar-body a:hover {
+    background-color: #FFFFFF10;
+}
+
+.sidebar-foot {
+    position:absolute;
+    bottom:15px;
+    left:50%;
+    transform:translate(-50%,0);
+    width: 97%;
+}
+
+.sidebar-foot a {
+    padding: 8px;
+    font-size: 24px;
+    display: flex;
+    text-decoration: none;
+}
+.sidebar-foot a:hover {
+    background-color: #FFFFFF10;
+}
+
+.body-text {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    margin-left: 150px;
+}
+
+#t1 { font-size: 1.2em; }
+#t2 { font-size: 0.5em; }
