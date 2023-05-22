@@ -1,0 +1,25 @@
+@font-face {
+    font-family: diva_font;
+    src: url(/assets/nintendo_NTLG.woff),
+    url(/assets/nintendo_NTLG.woff2);
+}
+
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
+
+body {
+    background-image: url('/assets/sekai.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    font-family: diva_font;
+    font-size: 16px;
+
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 12%;
+
+    text-align: center;
+
+    font-weight: normal !important;
+}
