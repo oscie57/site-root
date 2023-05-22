@@ -34,6 +34,9 @@ body {
     background-color: #ffffff6e;
     overflow: hidden;
     border-radius: 10px;
+
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.371);
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -52,4 +55,17 @@ body {
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
+}
+/* Hover colours */
+#red:hover {
+  background-color: #ff19196e;
+  color: white;
+}
+#black:hover {
+  background-color: #1717176e;
+  color: white;
+}
+#blue:hover {
+  background-color: #1994ff6e;
+  color: white;
 }
