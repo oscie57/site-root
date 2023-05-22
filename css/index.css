@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: cover;
 
     font-family: nintendo_NTLG;
     font-size: 16px;
