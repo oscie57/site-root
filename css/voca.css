@@ -18,8 +18,8 @@ body {
 }
 
 .content {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 12%;
 
     text-align: center;
@@ -27,6 +27,48 @@ body {
     font-weight: normal !important;
 }
 
+/* Work Icons */
+.icon-yt {
+  background: url('/assets/vocaloid/icon-yt.png');
+  display: block;
+  align-items: left;
+  width:20px;height:20px;background-size:cover;
+}
+
+.icon-nn {
+  background: url('/assets/vocaloid/icon-nn.png');
+  display: block;
+  align-items: left;
+  width:20px;height:20px;background-size:cover;
+}
+
+
+/* Work Items */
+
+.worktable {
+  width: 100%;
+}
+.workitem {
+  background-color: #ffffff6e;
+  border-radius: 10px;
+
+  backdrop-filter: blur(8px);
+  box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.371);
+  
+  padding: 10px;
+}
+.links {
+  width: 100%;
+}
+#youtube {
+  color: rgb(163, 46, 46);
+  padding-left: 50px;
+}
+#niconico {
+  color: rgb(33, 99, 33);
+  float:right;
+  padding-right: 50px;
+}
 
 
 /* Add a black background color to the top navigation */
