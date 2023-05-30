@@ -16,74 +16,66 @@ body {
     font-family: nintendo_NTLG;
     font-size: 16px;
 
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 12%;
-
     font-weight: normal !important;
 }
 
-
-
-section {
-    padding: 5px;
-    padding-right: 10%
+.about {
+    position:relative;
+    
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
 }
 
-article {
-    padding: 1%;
+.center {
     text-align: center;
 }
 
-img {
-    border-radius:10px;
+.pfparea {
+    position: relative;
+    
+    align-items: center;
+    text-align: center;
+
+    padding-top: 4%;
+}
+.pfp {
+    border-radius: 5px;
+    width: 170px;
 }
 
 .container {
+    display: flex;
     background-color: #FFFFFF40;
-    padding: 5%;
+    padding: 3%;
     border-radius:10px;  
+
+    width:580px;
+    height:250px;
+    left:50%;
+    top:40%;
+    transform:translate(-50%,-50%);
+    position:absolute;
 }
 
-.sitebutton {
-    padding: 5px;
-    background-color: #FFFFFF40;
-    border:none;
-    text-align:center;
-    width: 30%;
-    height: 20%;
-    border-radius:5px;
-    font-size: 16px;
-}
-
-
-.flexcontainer {
+.buttoncontainer {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF20;
     border-radius:5px;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
-
 .flexbutton {
     background-color: #FFFFFF00;
     border:none;
     font-size: 22px;
     padding: 5px;
     width: 50px;
-    
 }
-
 .flexbutton:hover {
     background-color: #FFFFFF90;
 }
-
 .sitebutton:hover {
     background-color: #FFFFFF90;
-}
-
-.buttondiv {
-    padding-top: 10%;
-    text-align: center;
 }
