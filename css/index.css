@@ -82,3 +82,44 @@ body {
 .sitebutton:hover {
     background-color: #FFFFFF90;
 }
+
+@media only screen and (max-width: 700px) {
+    .container {
+        display: block;
+        background-color: #FFFFFF40;
+        padding: 4%;
+        border-radius:10px;  
+    
+        width:300px;
+        height:530px;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        position:absolute;
+    }
+
+    .about {
+        position:relative;
+        
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .buttoncontainer {
+        display: block;
+        flex-direction: column;
+        background-color: #FFFFFF20;
+        border-radius:5px;
+        padding: 15px;
+    }
+
+    .flexbutton {
+        background-color: #FFFFFF00;
+        border:none;
+        font-size: 30px;
+        padding: 3px;
+        width: 40px;
+    }
+}
