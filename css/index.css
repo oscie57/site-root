@@ -66,6 +66,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .flexbutton {
     background-color: #FFFFFF00;
     border:none;
@@ -73,9 +74,11 @@ body {
     padding: 5px;
     width: 50px;
 }
+
 .flexbutton:hover {
     background-color: #FFFFFF90;
 }
+
 .sitebutton:hover {
     background-color: #FFFFFF90;
 }
