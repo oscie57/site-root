@@ -37,7 +37,7 @@ body {
     align-items: center;
     text-align: center;
 
-    padding-top: 4%;
+    padding-top: 6%;
 }
 .pfp {
     border-radius: 5px;
@@ -51,7 +51,7 @@ body {
     border-radius:10px;  
 
     width:580px;
-    height:250px;
+    height:280px;
     left:50%;
     top:40%;
     transform:translate(-50%,-50%);
@@ -63,8 +63,8 @@ body {
     flex-direction: column;
     background-color: #FFFFFF20;
     border-radius:5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .flexbutton {
@@ -91,7 +91,7 @@ body {
         border-radius:10px;  
     
         width:300px;
-        height:530px;
+        height:570px;
         left:50%;
         top:50%;
         transform:translate(-50%,-50%);
