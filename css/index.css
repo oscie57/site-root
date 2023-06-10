@@ -42,6 +42,8 @@ body {
 .pfp {
     border-radius: 5px;
     width: 170px;
+
+    box-shadow: 0px 0px 10px rgb(60, 60, 60);
 }
 
 .container {
@@ -56,6 +58,8 @@ body {
     top:40%;
     transform:translate(-50%,-50%);
     position:absolute;
+
+    box-shadow: 0px 0px 10px rgb(60, 60, 60);
 }
 
 .buttoncontainer {
@@ -65,10 +69,29 @@ body {
     border-radius:5px;
     padding-top: 30px;
     padding-bottom: 30px;
+
+    box-shadow: 0px 0px 10px rgb(60, 60, 60);
+}
+
+.referbutton {
+    background-color: rgba(170, 170, 170, 0.807);
+    width: 82%;
+
+    border:none;
+    padding: 8px;
+    box-shadow: 0px 0px 10px rgb(124, 124, 124);
+    border-radius: 5px;
+
+    font-family: nintendo_NTLG;
+    font-size: 16px;
+    font-weight: normal !important;
+}
+.referbutton:hover {
+    background-color: #ffffff49;
 }
 
 .flexbutton {
-    background-color: #FFFFFF00;
+    background-color: #ffffff00;
     border:none;
     font-size: 22px;
     padding: 5px;
@@ -83,6 +106,29 @@ body {
     background-color: #FFFFFF90;
 }
 
+.github-info {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff11;
+    
+    position: absolute;
+    bottom:0px;
+
+    left:50%;
+    transform:translate(-50%,0);
+
+    width: 45%;
+    padding: 3px;
+    border-radius: 5px;
+    
+    box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.824);
+}
+.github-info a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(21, 255, 0);
+}
+
 @media only screen and (max-width: 700px) {
     .container {
         display: block;
@@ -91,7 +137,7 @@ body {
         border-radius:10px;  
     
         width:300px;
-        height:570px;
+        height:590px;
         left:50%;
         top:50%;
         transform:translate(-50%,-50%);
@@ -121,5 +167,23 @@ body {
         font-size: 30px;
         padding: 3px;
         width: 40px;
+    }
+
+    .github-info {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background-color: #ffffff11;
+        
+        position: absolute;
+        bottom:0px;
+    
+        left:50%;
+        transform:translate(-50%,0);
+    
+        width: 95%;
+        padding: 3px;
+        border-radius: 5px;
+        
+        box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.824);
     }
 }
