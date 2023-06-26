@@ -170,20 +170,6 @@ body {
     }
 
     .github-info {
-        text-align: center;
-        color: rgb(255, 255, 255);
-        background-color: #ffffff11;
-        
-        position: absolute;
-        bottom:0px;
-    
-        left:50%;
-        transform:translate(-50%,0);
-    
-        width: 95%;
-        padding: 3px;
-        border-radius: 5px;
-        
-        box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.824);
+        display: none;
     }
 }
