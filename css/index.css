@@ -194,4 +194,8 @@ body {
     .webring {
         display: none;
     }
+
+    .floatingchat-container {
+        display: none;
+    }
 }
