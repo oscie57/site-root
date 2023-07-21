@@ -3,6 +3,11 @@
     src: url(/assets/nintendo_NTLG.woff),
     url(/assets/nintendo_NTLG.woff2);
 }
+@font-face {
+    font-family: nintendo_DS;
+    src: url(/assets/nintendo_DS.woff),
+    url(/assets/nintendo_NTLG.woff2)
+}
 
 @import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
 
@@ -37,7 +42,9 @@ body {
     align-items: center;
     text-align: center;
 
-    padding-top: 6%;
+    padding-top: 7%;
+
+    line-height: 145%;
 }
 .pfp {
     border-radius: 5px;
@@ -106,6 +113,18 @@ body {
     background-color: #FFFFFF90;
 }
 
+.webring {
+    font-family: nintendo_DS;
+    font-size: 22px;
+}
+.webring a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #122875;
+
+    padding: 2px;
+}
+
 .github-info {
     text-align: center;
     color: rgb(255, 255, 255);
@@ -170,6 +189,9 @@ body {
     }
 
     .github-info {
+        display: none;
+    }
+    .webring {
         display: none;
     }
 }
