@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN"
+    "http://www.wapforum.org/DTD/wml_1.1.xml" >
+<wml>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+
+    <card id="main" title="oscie.net">
+        <p mode="wrap" align="center"><img src="http://cloud.oscie.net/square50.png" alt="FAIL"/></p>
+        <p mode="wrap" align="center"><big><strong>oscie | 15 | he/him</strong></big></p>
+        <p mode="wrap" align="center">hello there, i'm oscar and i'm from the uk. i like alot of things revolving around real life and on the internet!<br/><br/>i enjoy playing games, talking to friends, and having fun!<br/><br/>visit "<i><u>Social Media</u></i>" for contact information or "<i><u>About (WML)</u></i>" for information about the webpage.</p>
+
+        <do label="About (WML)">
+            <go href="#card1"/>
+        </do>
+        <do label="Social Media">
+            <go href="#card2"/>
+        </do>
+        <do label="Friend Codes">
+            <go href="#card3"/>
+        </do>
+    </card>
+
+    <card id="card1" title="About (WML)">
+        <p mode="wrap">if you made it to this page, welcome! either you noticed through github or some other way, but this is my WAP-friendly, WML version of oscie.net, which is extremely hard to access!<br/><br/>i recommend using the Nintendo DSi for this, as it loads it with little difficulty. if you, however, would like to run it on a pc, i recommend using firefox 28.0 with the wmlbrowser plugin.<br/><br/>for more information about WML and WAP itself, visit the wikipedia article, as it sums it up pretty well.</p>
+
+        <do label="Wikipedia">
+            <go mode="wrap" href="http://en.wikipedia.org/wiki/Wireless_Markup_Language"/>
+        </do>
+        <do label="Firefox 28.0">
+            <go href="http://ftp.mozilla.org/pub/firefox/releases/28.0/"/>
+        </do>
+        <do label="WMLBrowser">
+            <go href="http://addons.thunderbird.net/en-us/firefox/addon/wmlbrowser/"/>
+        </do>
+
+        <p>thank you for reading my little rant about this cool little thing i found, ive enjoyed messing with it!</p>
+
+        <do type="prev" label="Go Back">
+            <prev/>
+        </do>
+    </card>
+
+    <card id="card2" title="Social Media">
+        <p mode="wrap"><big><strong>Contact Me:</strong></big></p>
+
+        <p mode="wrap">
+            <strong>Discord</strong> : oscie57<br/>
+            <strong>Email</strong> : me@oscie.net<br/>
+            <strong>Twitter</strong> : o5c1e<br/>
+            <strong>GitHub</strong> : oscie57<br/>
+            <strong>Fediverse</strong> : @oscie@lethallava.land<br/>
+            <strong>Matrix</strong> : @oscie:matrix.to
+        </p>
+
+        <do type="prev" label="Go Back">
+            <prev/>
+        </do>
+    </card>
+
+    <card id="card3" title="Friend Codes">
+        <p mode="wrap">
+            <strong>Switch:</strong><br/>SW-1970-6617-7985<br/><br/>
+            <strong>Wii U <small>NNID</small>:</strong><br/>OscarGaming097<br/><br/>
+            <strong>Wii U <small>PNID</small>:</strong><br/>oscie57<br/><br/>
+            <strong>Xbox 360:</strong><br/>OscarPlays57
+        </p>
+
+        <do type="prev" label="Go Back">
+            <prev/>
+        </do>
+    </card>
+</wml>
