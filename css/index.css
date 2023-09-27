@@ -29,7 +29,7 @@ body {
     
     padding-left: 8%;
     padding-right: 8%;
-    padding-top: 5%;
+    padding-top: 7%;
 }
 
 .center {
@@ -42,7 +42,7 @@ body {
     align-items: center;
     text-align: center;
 
-    padding-top: 7%;
+    padding-top: 5%;
 
     line-height: 145%;
 }
@@ -125,6 +125,32 @@ body {
     padding: 2px;
 }
 
+.visitor-count {
+    background-color: red;
+    padding: 10px;
+    width: 60px;
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff2e;
+
+    font-family: nintendo_DS;
+    font-size: 24px;
+    color: white;
+
+    border-radius: 2px;
+    border-end-end-radius: 8px;
+
+    box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.824);
+}
+#count {
+    font-size: 24px;
+    text-decoration: none;
+    color: #18c11d;
+
+    padding: 2px;
+}
+
 .github-info {
     text-align: center;
     color: rgb(255, 255, 255);
@@ -169,7 +195,7 @@ body {
         padding-left: 8%;
         padding-right: 8%;
         padding-top: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 15%;
     }
 
     .buttoncontainer {
@@ -196,6 +222,10 @@ body {
     }
 
     .floatingchat-container {
+        display: none;
+    }
+
+    .visitor-count {
         display: none;
     }
 }

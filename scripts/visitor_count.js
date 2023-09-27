@@ -1,10 +1,5 @@
-function openFile() {
-    const reader = new FileReader();
-    reader.onload = function() {
-        const contents = reader.result;
-        console.log(contents); // Do something with the contents of the file
-    };
-    reader.readAsText('latest_commit.js');
-}
-
-openFile()
+    fetch('http://api.oscie.net/views')
+        .then(resp => resp.json())
+        .then(resp => {
+                document.getElementById('viewcount').innerHTML = "55555"
+    })
