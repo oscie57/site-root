@@ -146,9 +146,12 @@ body {
 #count {
     font-size: 24px;
     text-decoration: none;
-    color: #108c14;
+    color: #a2ff01;
 
     padding: 2px;
+}
+#greycount {
+    color:rgb(78, 78, 78);
 }
 
 .github-info {
