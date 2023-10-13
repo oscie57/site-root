@@ -1,0 +1,162 @@
+@font-face {
+    font-family: fontsp1;
+    src: url(/assets/fontsp1.woff2)
+}
+
+body {
+    background-image: url('/assets/bg1.jpg');
+    background-position: 0px;
+
+    font-family: fontsp1;
+    font-size: 16px;
+    color: #eaffff;
+
+    font-weight: normal !important;
+
+    left: 0px;
+}
+
+.container {
+    background-color: rgba(83,134,148,.4);
+    text-shadow: 0 0 4px #00bcd4 , 0 0 6px #00bcd4 , 0 0 8px #00bcd4 , 0 0 10px #00bcd4;
+}
+
+.credits, .credits a {
+    color: #eaffff;
+    text-shadow: 0 0 4px #00bcd4 , 0 0 6px #00bcd4 , 0 0 8px #00bcd4 , 0 0 10px #00bcd4;
+}
+
+.buttoncontainer {
+    background-color: rgba(83,134,148,.4);
+    box-shadow: 0px 0px 10px rgba(83,134,148);
+}
+.flexbutton {
+    color: #ffd07e;
+    text-shadow:0 0 1px #fda204 , 0 0 5px #ffd07e
+}
+.flexbutton:hover {
+    background-color: rgba(83,134,148,.7);
+}
+
+.referbutton {
+    background-color: rgba(83,134,148,.6);
+    width: 82%;
+
+    box-shadow: 0px 0px 10px rgba(83,134,148);
+
+    font-family: fontsp1;
+    font-size: 16px;
+    font-weight: normal !important;
+
+    color: #ffd07e;
+    text-shadow:0 0 1px #fda204 , 0 0 5px #ffd07e
+}
+.referbutton:hover {
+    background-color: rgba(83,134,148,.7);
+}
+
+.webring-text {
+    color: #eaffff !important;
+}
+.webring a {
+    color: #ffd07e;
+    text-shadow:0 0 1px #fda204 , 0 0 5px #ffd07e
+}
+
+.github-info a {
+    color: #ffd07e;
+    text-shadow:0 0 1px #fda204 , 0 0 5px #ffd07e
+}
+
+#fade-top {
+    left: 0px;
+    position: absolute;
+    width: 100%;
+
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,252,255,1) 1%, rgba(25,252,255,.6) 2%, rgba(25,252,255,.4) 10%, rgba(25,252,255,0) 60%, rgba(25,252,255,0) 100%);
+}
+
+#fade-btm {
+    left: 0px;
+    position: absolute;
+    width: 100%;
+
+    height: 160px;
+
+	background:linear-gradient(to bottom, rgba(25,252,255,0) 0%,rgba(25,252,255,0) 40%,rgba(25,252,255,.4) 90%,rgba(25,252,255,.6) 98%,rgba(255,255,255,1) 99%,rgba(255,255,255,1) 100%);
+}
+
+@media screen and (min-width: 981px) {
+	#fade-top {
+		top:0px; 
+		height:180px;
+	}
+    #fade-btm {
+        bottom:0px;
+        height:180px;
+    }
+}
+@media screen and (max-width: 980px) {
+	#fade-top {
+		top:0px; 
+		height:120px;
+	}
+    #fade-btm {
+        bottom:0px;
+        height:180px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        display: block;
+        padding: 4%;
+        border-radius:10px;  
+    
+        width:300px;
+        height:635px;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        position:absolute;
+    }
+
+    .about {
+        position:relative;
+        
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+
+    .buttoncontainer {
+        display: block;
+        flex-direction: column;
+        border-radius:5px;
+        padding: 15px;
+        align-items: center;
+    }
+
+    .flexbutton {
+        border:none;
+        font-size: 30px;
+        padding: 3px;
+        width: 40px;
+    }
+
+    .github-info {
+        display: none;
+    }
+    .webring {
+        display: none;
+    }
+
+    .floatingchat-container, .floatingchat-container-wrap {
+        display: none;
+    }
+
+    .visitor-count {
+        display: none;
+    }
+}
