@@ -1,0 +1,234 @@
+@font-face {
+    font-family: nintendo_NTLG;
+    src: url(/assets/nintendo_NTLG.woff),
+    url(/assets/nintendo_NTLG.woff2);
+}
+@font-face {
+    font-family: nintendo_DS;
+    src: url(/assets/nintendo_DS.woff),
+    url(/assets/nintendo_NTLG.woff2)
+}
+
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
+
+body {
+    background-image: url('/assets/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    font-family: nintendo_NTLG;
+    font-size: 16px;
+
+    font-weight: normal !important;
+}
+
+.about {
+    position:relative;
+    
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 7%;
+}
+
+.center {
+    text-align: center;
+}
+
+.pfparea {
+    position: relative;
+    
+    align-items: center;
+    text-align: center;
+
+    padding-top: 5%;
+
+    line-height: 145%;
+}
+.pfp {
+    border-radius: 5px;
+    width: 170px;
+
+    box-shadow: 0px 0px 10px rgb(60, 60, 60);
+}
+
+.container {
+    display: flex;
+    background-color: #FFFFFF40;
+    padding: 3%;
+    border-radius:10px;  
+
+    width:580px;
+    height:280px;
+    left:50%;
+    top:40%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+
+    box-shadow: 0px 0px 10px rgb(60, 60, 60);
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF20;
+    border-radius:5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    box-shadow: 0px 0px 10px rgb(60, 60, 60);
+}
+
+.referbutton {
+    background-color: rgba(170, 170, 170, 0.807);
+    width: 82%;
+
+    border:none;
+    padding: 8px;
+    box-shadow: 0px 0px 10px rgb(124, 124, 124);
+    border-radius: 5px;
+
+    font-family: nintendo_NTLG;
+    font-size: 16px;
+    font-weight: normal !important;
+}
+.referbutton:hover {
+    background-color: #ffffff49;
+}
+
+.flexbutton {
+    background-color: #ffffff00;
+    border:none;
+    font-size: 22px;
+    padding: 5px;
+    width: 50px;
+}
+
+.flexbutton:hover {
+    background-color: #FFFFFF90;
+}
+
+.sitebutton:hover {
+    background-color: #FFFFFF90;
+}
+
+.webring {
+    font-family: nintendo_DS;
+    font-size: 22px;
+}
+.webring a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #122875;
+
+    padding: 2px;
+}
+
+.visitor-count {
+    background-color: red;
+    padding: 10px;
+    width: 60px;
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff2e;
+
+    font-family: nintendo_DS;
+    font-size: 24px;
+    color: white;
+
+    border-radius: 2px;
+    border-end-end-radius: 8px;
+
+    box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.824);
+}
+#count {
+    font-size: 24px;
+    text-decoration: none;
+    color: #a2ff01;
+
+    padding: 2px;
+}
+#greycount {
+    color:rgb(78, 78, 78);
+}
+
+.github-info {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #ffffff11;
+    
+    position: absolute;
+    bottom:0px;
+
+    left:50%;
+    transform:translate(-50%,0);
+
+    width: 45%;
+    padding: 3px;
+    border-radius: 5px;
+    
+    box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.824);
+}
+.github-info a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(21, 255, 0);
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        display: block;
+        background-color: #FFFFFF40;
+        padding: 4%;
+        border-radius:10px;  
+    
+        width:300px;
+        height:590px;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+        position:absolute;
+    }
+
+    .about {
+        position:relative;
+        
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-top: 5%;
+        padding-bottom: 15%;
+    }
+
+    .buttoncontainer {
+        display: block;
+        flex-direction: column;
+        background-color: #FFFFFF20;
+        border-radius:5px;
+        padding: 15px;
+    }
+
+    .flexbutton {
+        background-color: #FFFFFF00;
+        border:none;
+        font-size: 30px;
+        padding: 3px;
+        width: 40px;
+    }
+
+    .github-info {
+        display: none;
+    }
+    .webring {
+        display: none;
+    }
+
+    .floatingchat-container {
+        display: none;
+    }
+
+    .visitor-count {
+        display: none;
+    }
+}
