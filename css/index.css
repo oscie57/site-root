@@ -12,16 +12,15 @@
 @import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
 
 body {
-    background-image: url('/assets/bg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-image: url('/assets/bg3.png');
+    background-position: 0px;
 
     font-family: nintendo_NTLG;
     font-size: 16px;
 
     font-weight: normal !important;
+
+    color: white;
 }
 
 .about {
@@ -55,7 +54,7 @@ body {
 
 .container {
     display: flex;
-    background-color: #FFFFFF40;
+    
     padding: 3%;
     border-radius:10px;  
 
@@ -66,32 +65,30 @@ body {
     transform:translate(-50%,-50%);
     position:absolute;
 
-    box-shadow: 0px 0px 10px rgb(60, 60, 60);
 }
 
 .buttoncontainer {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF20;
+    background-color: rgba(255, 255, 255, 0.186);
     border-radius:5px;
     padding-top: 30px;
     padding-bottom: 30px;
-
-    box-shadow: 0px 0px 10px rgb(60, 60, 60);
 }
 
 .referbutton {
-    background-color: rgba(170, 170, 170, 0.807);
+    background-color: rgba(255, 255, 255, 0.186);
     width: 82%;
 
     border:none;
     padding: 8px;
-    box-shadow: 0px 0px 10px rgb(124, 124, 124);
     border-radius: 5px;
 
     font-family: nintendo_NTLG;
     font-size: 16px;
     font-weight: normal !important;
+
+    color: white
 }
 .referbutton:hover {
     background-color: #ffffff49;
@@ -103,6 +100,7 @@ body {
     font-size: 22px;
     padding: 5px;
     width: 50px;
+    color: white;
 }
 
 .flexbutton:hover {
@@ -116,22 +114,29 @@ body {
 .webring {
     font-family: nintendo_DS;
     font-size: 22px;
+    color: white;
 }
 .webring a {
     font-size: 20px;
     text-decoration: none;
-    color: #122875;
+    color: rgb(255, 255, 255);
 
     padding: 2px;
 }
-
-.visitor-count {
+.webring span {
+    color: white;
+}
+.top-section {
+    display: flex;
+    flex-direction: row; 
     padding: 10px;
-    width: 60px;
+}
+.top-left-section {
+    display: flex;
+    flex-direction: row; 
 
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: #ffffff2e;
 
     font-family: nintendo_DS;
     font-size: 24px;
@@ -140,9 +145,24 @@ body {
     border-radius: 2px;
     border-end-end-radius: 8px;
 
-    box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.824);
+    position: relative;
 }
-#count {
+.top-right-section {
+    position: relative;
+    margin-inline-start: auto;
+}
+.visitor-count {
+    width: 60px;
+}
+.tls-divider {
+    width: 12px;
+    line-height: 13px;
+    color: rgb(165, 165, 165);
+}
+.uptime-timer {
+    width: 100px;
+}
+#count, #uptime {
     font-size: 24px;
     text-decoration: none;
     color: #a2ff01;
@@ -150,14 +170,21 @@ body {
     padding: 2px;
 }
 #greycount {
-    color:rgb(78, 78, 78);
+    color:rgb(134, 134, 134);
+}
+.uptime-timer a {
+    color: #ffd07e;
+    text-decoration: none;
 }
 
 .credits {
-    padding: 5px;
+    padding: 10px;
     
     text-align: right;
     color: white;
+
+    position: relative;
+    right: 0px;
 }
 .credits a {
     color: white;
@@ -167,7 +194,6 @@ body {
 .github-info {
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: #ffffff11;
     
     position: absolute;
     bottom:0px;
@@ -178,8 +204,6 @@ body {
     width: 45%;
     padding: 3px;
     border-radius: 5px;
-    
-    box-shadow: 0px 0px 10px rgba(60, 60, 60, 0.824);
 }
 .github-info a {
     text-decoration: none;
@@ -190,7 +214,6 @@ body {
 @media only screen and (max-width: 700px) {
     .container {
         display: block;
-        background-color: #FFFFFF40;
         padding: 4%;
         border-radius:10px;  
     
@@ -238,7 +261,7 @@ body {
         display: none;
     }
 
-    .visitor-count {
+    .top-section {
         display: none;
     }
 }
