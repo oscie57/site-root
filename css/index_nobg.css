@@ -134,9 +134,11 @@ body {
     text-decoration: none;
 }
 
-.visitor-count {
+.top-left-section {
+    display: flex;
+    flex-direction:row; 
     padding: 10px;
-    width: 60px;
+    
 
     text-align: center;
     color: rgb(255, 255, 255);
@@ -147,8 +149,21 @@ body {
 
     border-radius: 2px;
     border-end-end-radius: 8px;
+
+    position: relative;
 }
-#count {
+.visitor-count {
+    width: 60px;
+}
+.tls-divider {
+    width: 12px;
+    line-height: 13px;
+    color: rgb(165, 165, 165);
+}
+.uptime-timer {
+    width: 100px;
+}
+#count, #uptime {
     font-size: 24px;
     text-decoration: none;
     color: #a2ff01;
@@ -230,7 +245,7 @@ body {
         display: none;
     }
 
-    .visitor-count {
+    .top-left-section {
         display: none;
     }
 }

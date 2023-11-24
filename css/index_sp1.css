@@ -68,6 +68,12 @@ body {
     text-shadow:0 0 1px #fda204 , 0 0 5px #ffd07e
 }
 
+.uptime-timer a {
+    color: #ffd07e;
+    text-shadow:0 0 1px #fda204 , 0 0 5px #ffd07e;
+    text-decoration: none;
+}
+
 #fade-top {
     left: 0px;
     position: absolute;
