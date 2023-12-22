@@ -162,6 +162,9 @@ body {
 .uptime-timer {
     width: 100px;
 }
+.arcade-link {
+    width: 90px;
+}
 #count, #uptime {
     font-size: 24px;
     text-decoration: none;
@@ -173,6 +176,10 @@ body {
     color:rgb(134, 134, 134);
 }
 .uptime-timer a {
+    color: #ffd07e;
+    text-decoration: none;
+}
+.arcade-link a {
     color: #ffd07e;
     text-decoration: none;
 }
