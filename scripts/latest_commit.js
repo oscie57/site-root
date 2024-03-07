@@ -1,4 +1,4 @@
-fetch('https://api.github.com/repos/oscie57/oscie57.github.io/branches/carrd')
+fetch('https://api.github.com/repos/oscie57/site-root/commits/master')
 .then(resp => resp.json())
 .then(resp => {
     document.getElementById('commit-author').innerHTML = resp.commit.committer.login
