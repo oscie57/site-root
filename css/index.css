@@ -36,6 +36,7 @@ body {
 }
 
 .pfparea {
+    display: inline-block; 
     position: relative;
     
     align-items: center;
@@ -51,6 +52,20 @@ body {
 
     box-shadow: 0px 0px 10px rgb(60, 60, 60);
 }
+.pfparea .wiiring {
+    border-radius: 5px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    opacity: 0;
+    height: 200px;
+    
+    transition:0.2s;
+}
+.pfparea:hover .wiiring {
+    opacity: 1;
+    transition:0.2s;
+}
 
 .container {
     display: flex;
@@ -64,7 +79,6 @@ body {
     top:40%;
     transform:translate(-50%,-50%);
     position:absolute;
-
 }
 
 .buttoncontainer {
@@ -102,7 +116,6 @@ body {
     width: 50px;
     color: white;
 }
-
 .flexbutton:hover {
     background-color: #FFFFFF90;
 }
@@ -126,6 +139,7 @@ body {
 .webring span {
     color: white;
 }
+
 .top-section {
     display: flex;
     flex-direction: row; 
@@ -150,6 +164,17 @@ body {
 .top-right-section {
     position: relative;
     margin-inline-start: auto;
+
+    display: flex;
+    flex-direction: row; 
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    border-radius: 2px;
+    border-end-end-radius: 8px;
+
+    position: relative;
 }
 .visitor-count {
     width: 60px;
@@ -269,6 +294,10 @@ body {
     }
 
     .top-section {
+        display: none;
+    }
+
+    .wiiring {
         display: none;
     }
 }

@@ -31,6 +31,7 @@ body {
 }
 
 .pfparea {
+    display: inline-block; 
     position: relative;
     
     align-items: center;
@@ -46,10 +47,23 @@ body {
 
     box-shadow: 0px 0px 10px rgb(60, 60, 60);
 }
+.pfparea .wiiring {
+    border-radius: 5px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    opacity: 0;
+    
+    transition:0.2s;
+}
+.pfparea:hover .wiiring {
+    opacity: 1;
+    transition:0.2s;
+}
 
 .container {
     display: flex;
-    background-color: #FFFFFF40;
+    
     padding: 3%;
     border-radius:10px;  
 
@@ -59,33 +73,30 @@ body {
     top:40%;
     transform:translate(-50%,-50%);
     position:absolute;
-
-    box-shadow: 0px 0px 10px rgb(60, 60, 60);
 }
 
 .buttoncontainer {
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF20;
+    background-color: rgba(255, 255, 255, 0.186);
     border-radius:5px;
     padding-top: 30px;
     padding-bottom: 30px;
-
-    box-shadow: 0px 0px 10px rgb(60, 60, 60);
 }
 
 .referbutton {
-    background-color: rgba(170, 170, 170, 0.807);
+    background-color: rgba(255, 255, 255, 0.186);
     width: 82%;
 
     border:none;
     padding: 8px;
-    box-shadow: 0px 0px 10px rgb(124, 124, 124);
     border-radius: 5px;
 
     font-family: nintendo_NTLG;
     font-size: 16px;
     font-weight: normal !important;
+
+    color: white
 }
 .referbutton:hover {
     background-color: #ffffff49;
@@ -97,8 +108,8 @@ body {
     font-size: 22px;
     padding: 5px;
     width: 50px;
+    color: white;
 }
-
 .flexbutton:hover {
     background-color: #FFFFFF90;
 }
@@ -110,35 +121,27 @@ body {
 .webring {
     font-family: nintendo_DS;
     font-size: 22px;
+    color: white;
 }
 .webring a {
     font-size: 20px;
     text-decoration: none;
-    color: #122875;
+    color: rgb(255, 255, 255);
 
     padding: 2px;
 }
+.webring span {
+    color: white;
+}
 
-.credits {
+.top-section {
+    display: flex;
+    flex-direction: row; 
     padding: 10px;
-    
-    text-align: right;
-    color: white;
-    position: absolute;
-
-    top: 0px;
-    right: 0px;
 }
-.credits a {
-    color: white;
-    text-decoration: none;
-}
-
 .top-left-section {
     display: flex;
-    flex-direction:row; 
-    padding: 10px;
-    
+    flex-direction: row; 
 
     text-align: center;
     color: rgb(255, 255, 255);
@@ -152,6 +155,10 @@ body {
 
     position: relative;
 }
+.top-right-section {
+    position: relative;
+    margin-inline-start: auto;
+}
 .visitor-count {
     width: 60px;
 }
@@ -163,6 +170,9 @@ body {
 .uptime-timer {
     width: 100px;
 }
+.arcade-link {
+    width: 90px;
+}
 #count, #uptime {
     font-size: 24px;
     text-decoration: none;
@@ -171,7 +181,29 @@ body {
     padding: 2px;
 }
 #greycount {
-    color:rgb(78, 78, 78);
+    color:rgb(134, 134, 134);
+}
+.uptime-timer a {
+    color: #ffd07e;
+    text-decoration: none;
+}
+.arcade-link a {
+    color: #ffd07e;
+    text-decoration: none;
+}
+
+.credits {
+    padding: 10px;
+    
+    text-align: right;
+    color: white;
+
+    position: relative;
+    right: 0px;
+}
+.credits a {
+    color: white;
+    text-decoration: none;
 }
 
 .github-info {
@@ -197,7 +229,6 @@ body {
 @media only screen and (max-width: 700px) {
     .container {
         display: block;
-        background-color: #FFFFFF40;
         padding: 4%;
         border-radius:10px;  
     
@@ -245,7 +276,11 @@ body {
         display: none;
     }
 
-    .top-left-section {
+    .top-section {
+        display: none;
+    }
+
+    .wiiring {
         display: none;
     }
 }
