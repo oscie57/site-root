@@ -7,9 +7,19 @@
     </head>
 
     <card id="main" title="oscie.net">
-        <p mode="wrap" align="center"><img src="http://cloud.oscie.net/square50.png" alt="FAIL"/></p>
-        <p mode="wrap" align="center"><big><strong>oscie | 15 | he/him</strong></big></p>
-        <p mode="wrap" align="center">hello there, i'm oscar and i'm from the uk. i like alot of things revolving around real life and on the internet!<br/><br/>i enjoy playing games, talking to friends, and having fun!<br/><br/>visit "<i><u>Social Media</u></i>" for contact information or "<i><u>About (WML)</u></i>" for information about the webpage.</p>
+        <p mode="wrap" align="center">
+            <img src="http://cloud.oscie.net/square50.png" alt="Profile Picture (50px)"/>
+        </p>
+        <p mode="wrap" align="center">
+            <big><strong>★oscie☆ | 16 | he/him</strong></big>
+        </p>
+        <p mode="wrap" align="center">
+            hello there, i'm oscie and i'm from the uk. i like alot of things revolving around real life and on the internet!
+            <br/><br/>
+            i enjoy playing rhythm games, listening to game OSTs, and ding wiilink stuff!
+            <br/><br/>
+            visit "<i><u>Social Media</u></i>"/"<i><u>Friend Codes</u></i>" for contact information or "<i><u>About (WML)</u></i>" for information about the webpage.
+        </p>
 
         <do label="About (WML)">
             <go href="#card1"/>
@@ -46,12 +56,11 @@
         <p mode="wrap"><big><strong>Contact Me:</strong></big></p>
 
         <p mode="wrap">
-            <strong>Discord</strong> : oscie57<br/>
             <strong>Email</strong> : me@oscie.net<br/>
-            <strong>Twitter</strong> : o5c1e<br/>
+            <strong>Twitter</strong> : oscie57<br/>
             <strong>GitHub</strong> : oscie57<br/>
+            <strong>YouTube</strong> : oscie<br/>
             <strong>Fediverse</strong> : @oscie@lethallava.land<br/>
-            <strong>Matrix</strong> : @oscie:matrix.to
         </p>
 
         <do type="prev" label="Go Back">
@@ -64,7 +73,10 @@
             <strong>Switch:</strong><br/>SW-1970-6617-7985<br/><br/>
             <strong>Wii U <small>NNID</small>:</strong><br/>OscarGaming097<br/><br/>
             <strong>Wii U <small>PNID</small>:</strong><br/>oscie57<br/><br/>
-            <strong>Xbox 360:</strong><br/>OscarPlays57
+            <strong>Xbox 360:</strong><br/>OscarPlays57<br/><br/>
+            <strong>ZZZ <small>EU</small>:</strong><br/>1500034900<br/><br/>
+            <strong>Project SEKAI <small>Global</small>:</strong><br/>312999210653880328<br/><br/>
+            <strong>Project SEKAI <small>Japan</small>:</strong><br/>400984222486228994
         </p>
 
         <do type="prev" label="Go Back">
