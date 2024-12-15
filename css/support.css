@@ -1,0 +1,40 @@
+@font-face {
+    font-family: nintendo_NTLG;
+    src: url(/assets/nintendo_NTLG.woff),
+    url(/assets/nintendo_NTLG.woff2);
+}
+
+body {
+    font-family: nintendo_NTLG;
+    background-color: black;
+    color: white;
+}
+button {
+    font-family: nintendo_NTLG;
+    background-color: red;
+    color: white;
+    border: none;
+}
+button:hover {
+    background-color: darkred;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-right: 20%;
+}
+
+.btn-back {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn-link {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
