@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="/assets/style.css?v={{ site.css_ver }}">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="layout-top">
+
+            <a href="/"><img class="icon" src="/assets/square.png"></a>
+
+            <div class="top-text">
+                <p style="font-size: 1.5em;">{{ page.description }}</p>
+                <p style="font-size: 1.2em;">oscie.net</p>
+            </div>
+
+        </div>
+
+        <div class="layout-middle">
+
+            <div class="nav-container">
+                {% include nav.html %}
+            </div>
+
+            <div class="content-container">
+                <div class="content">
+                    <a href="/"><- Go back</a>
+                    <hr />
+                    
+                    {{ content }}
+                </div>
+            </div>
+
+            <div class="right-container" style="background-color: #66e64a;">
+            </div>
+
+        </div>
+
+        <div class="layout-bottom">
+            {% include foot.html %}
+        </div>
+
+    </div>
+
+</body>
+<footer>
+    <script src="/scripts/latest_commit.js"></script>
+</footer>
+</html>
