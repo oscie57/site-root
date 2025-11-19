@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
 @font-face {
     font-family: nintendo_NTLG;
     src: url(/assets/nintendo_NTLG.woff),
@@ -9,7 +10,6 @@
     url(/assets/nintendo_NTLG.woff2)
 }
 
-@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css");
 
 body {
     background-image: url('/assets/bg3.png');
@@ -242,7 +242,14 @@ body {
     font-size: 1.2em;
     color: rgb(21, 255, 0);
 }
-
+.bsky-button{
+    background: url("/assets/bluesky_logo.svg") no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    background-position: center;
+    padding: 10px;
+    height: 40px;
+}
 @media only screen and (max-width: 700px) {
     .container {
         display: block;
