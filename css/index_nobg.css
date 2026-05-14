@@ -61,6 +61,9 @@ body {
     opacity: 1;
     transition:0.2s;
 }
+.wiiring {
+    height: 200px;
+}
 
 .container {
     display: flex;
