@@ -21,6 +21,10 @@ body {
     text-shadow: 0 0 4px #00bcd4 , 0 0 6px #00bcd4 , 0 0 8px #00bcd4 , 0 0 10px #00bcd4;
 }
 
+.center.about {
+    text-shadow: none;
+}
+
 .credits, .credits a {
     color: #eaffff;
     text-shadow: 0 0 4px #00bcd4 , 0 0 6px #00bcd4 , 0 0 8px #00bcd4 , 0 0 10px #00bcd4;
